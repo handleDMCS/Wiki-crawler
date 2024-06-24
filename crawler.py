@@ -1,3 +1,4 @@
+import json
 import requests
 from pymongo import MongoClient
 
@@ -32,11 +33,8 @@ def insert_data(data):
     print(f'Data inserted with id: {result.inserted_id}')
 
 # Page title for the Vietnamese Wikipedia page
-page_title = "Logarit"
-language = "vi"
-content = get_wikipedia_page_content(page_title, language)
 
-if content:
-    insert_data(content)
-else:
-    print("No content found for the specified page.")
+# if content:
+#     insert_data(content)
+# else:
+#     print("No content found for the specified page.")
