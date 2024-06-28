@@ -1,0 +1,200 @@
+Học máy
+Transformer (mô hình học máy)
+Học sâu
+Trí tuệ nhân tạo tạo sinh
+Máy vectơ hỗ trợ
+Java (ngôn ngữ lập trình)
+Mạng thần kinh nhân tạo
+Học có giám sát
+Kỹ thuật hệ thống
+Học tăng cường
+Cây quyết định
+Dịch vụ mạng xã hội
+Giải thuật tìm kiếm
+Bootstrap
+Phương pháp lưới Boltzmann
+Mạng Bayes
+Giảm chiều dữ liệu
+Bài toán người bán hàng
+Di truyền
+Bảng băm
+Thuật toán sắp xếp
+Mạng thần kinh hồi quy
+Phân vùng ảnh
+Mô hình Markov ẩn
+Biến đổi tuyến tính
+Lập trình máy tính
+Python (ngôn ngữ lập trình)
+Ngôn ngữ lập trình
+Lập trình hướng sự kiện
+Robot
+Lập trình viên
+Luồng điều khiển
+Giao diện lập trình ứng dụng
+Giao diện dòng lệnh
+Lập trình tổng quát
+Kỹ sư phần mềm
+Lập trình hướng đối tượng
+Thiết kế web
+Hệ thống nhúng
+Tính toán song song
+Lập trình hàm
+Hợp ngữ
+Radar
+PHP
+MATLAB
+Kế toán
+Đa nền tảng
+Trình biên dịch
+Máy ảo
+JavaScript
+Vật lý học
+Các định luật về chuyển động của Newton
+Lịch sử vật lý học
+Vũ trụ
+Vật lý kỹ thuật
+Điểm bất thường (thống kê)
+Cơ học cổ điển
+Vật lý thiên văn
+Địa vật lý
+Lý thuyết trường lượng tử
+Y học hạt nhân
+Vật lý kinh tế
+Ête (vật lý)
+Tính chất vật lý
+Tenxơ
+Logic mờ
+Giải Nobel Vật lý
+Logic toán
+Khí động lực học
+Nhiệt động lực học
+Quang học
+Biến áp
+Thuyết tương đối
+Vận tốc
+Năng lượng hạt nhân
+Sinh học
+Đột biến sinh học
+Lịch sử sinh học
+Sinh học tế bào
+Đa dạng sinh học
+Phân loại sinh học
+Trao đổi chất
+Địa lý sinh học
+Năng lượng sinh học
+Hệ sinh học
+Giới (sinh học)
+Đa dạng sinh học toàn cầu
+Loài
+Đạo đức sinh học
+Quần thể (sinh học)
+Nhịp điệu sinh học hàng ngày
+Tâm lý sinh học
+Sinh học hệ thống
+Họ (sinh học)
+Vi sinh vật học
+Sinh học phân tử
+Tiến hóa
+Sinh học biển
+Hệ sinh thái
+Điện tử học
+Phát sóng
+Cơ điện tử
+Công nghiệp điện tử
+Tụ điện
+Lỗ đen
+Dòng điện
+Dao động điện tử
+Linh kiện bán dẫn
+Báo điện tử
+Điện
+Hiệu ứng quang điện
+Transistor
+Vi mạch
+Diode
+Hệ thống điều khiển
+Đèn điện tử chân không
+Pin Mặt Trời
+Điện trở và điện dẫn
+Cơ học lượng tử
+Từ trường Trái Đất
+Lò phản ứng hạt nhân
+Mạch in
+Mạch chỉnh lưu
+Laser
+Mật mã học
+Biến đổi Fourier rời rạc
+Toán học tổ hợp
+Bài toán tối ưu hóa
+Đồ thị phẳng
+Biến ngẫu nhiên
+Mô hình toán học
+Thông tin
+Biến cố (lý thuyết xác suất)
+Đa thức
+Tập lũy thừa
+Tô pô rời rạc
+Cây (lý thuyết đồ thị)
+Đồ thị (lý thuyết đồ thị)
+Lý thuyết đồ thị
+Giải tích toán học
+Cấu trúc dữ liệu
+Suy luận thống kê
+Đại số Boole
+Định lý giới hạn trung tâm
+Mạch điện
+Tối ưu hóa (toán học)
+Luồng trên mạng
+Lý thuyết tập hợp
+Đạo hàm
+Lý thuyết số
+Thuật toán
+Thuật toán Dijkstra
+Biến đổi Fourier nhanh
+Khai phá dữ liệu
+Độ phức tạp thuật toán
+Kiểm tra tính nguyên tố
+Thuật toán Simon
+Khuếch đại thuật toán
+Sự sống trên Sao Hỏa
+Tìm kiếm theo chiều sâu
+Thuật toán Luhn
+Phân tích thuật toán
+Thuật toán Knuth–Morris–Pratt
+Thuật toán Shor
+Thuật toán khóa đối xứng
+Thuật toán Prim
+Phương pháp Monte Carlo
+Thuật toán cực đại hóa kỳ vọng
+Luồng cực đại
+Quay lui (khoa học máy tính)
+Giải thuật tìm kiếm A*
+Giải thuật tham lam
+Cây bao trùm nhỏ nhất
+Thuật toán Floyd–Warshall
+RSA (mã hóa)
+TensorFlow
+Ứng dụng trên thiết bị di động
+Truyền ngược
+Dịch tự động
+Chất bán dẫn
+RAM
+Q-learning (học tăng cường)
+Phương sai
+Số tự nhiên
+Trung bình cộng
+Điện thế hóa dài hạn
+Xích Markov
+Học PAC
+Suy luận Bayes
+Chiều VC
+Nhận dạng tiếng nói
+Mạng Hopfield
+Quá trình quyết định Markov
+Cơ sở dữ liệu
+Apollo 4
+Xử lý ngôn ngữ tự nhiên
+BERT (mô hình ngôn ngữ)
+ChatGPT
+Dữ liệu lớn
+Trí tuệ nhân tạo
