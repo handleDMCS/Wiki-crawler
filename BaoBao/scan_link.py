@@ -8,6 +8,13 @@ def add_list(list, value):
     if value not in list:
         list.append(value)
 
+def check_link(link):
+    """
+    Kiểm tra các từ khoá có thế gây lỗi hoặc không cần thiết.
+    """
+    forbidden_keywords = ['b.link', "youtu", "ebook", "javascript", "buymeacoffee", "email"]
+    return not any(keyword in link for keyword in forbidden_keywords)
+
 def get_link(url, links_list):
     # Gửi một yêu cầu GET đến trang web
     response = requests.get(url)
@@ -25,10 +32,12 @@ def get_link(url, links_list):
             href = link.get('href')
             if not isinstance(href, str) or href == url:
                 continue
-            if href and href.startswith("http") and ('b.link' not in href) and ("youtu" not in href) and ("facebook" not in href):
-                add_list(links_list, href)
-            if not href.startswith("http"):
-                add_list(links_list, url + href.lstrip('/'))
+            if href and check_link(href):
+                if href.startswith("http"):
+                    if (url in href):
+                        add_list(links_list, href)
+                else:
+                    add_list(links_list, url + href.lstrip('/'))
         print(f"Truy xuất xong trang web: {url}")
     else:
         print(f"Không thể truy xuất trang web: {url}. Mã trạng thái: {response.status_code}")
