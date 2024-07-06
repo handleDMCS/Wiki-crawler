@@ -47,6 +47,7 @@ def download_pdf(url, output_path):
     try:
         response = requests.get(url, verify=False)
         response.raise_for_status()  # Kiểm tra lỗi HTTP
+        print(output_path)
         with open(output_path, 'wb') as file:
             file.write(response.content)
         print(f"Tải xuống thành công: {output_path}")

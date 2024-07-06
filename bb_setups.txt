@@ -1,1 +1,4 @@
 Beautifulsoup4
+pymongo
+requests
+pdfplumber
