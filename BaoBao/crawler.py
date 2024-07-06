@@ -1,41 +1,9 @@
-import json
 import requests
-import argparse
-from pymongo import MongoClient
 from bs4 import BeautifulSoup
+import pdfplumber
+import os
 
-# Khởi tạo đối tượng
-parser = argparse.ArgumentParser(description='Crawl data từ Web links')
-
-# Thêm các đối số
-parser.add_argument("--links_list", type=str, help="Đường dẫn của file chứa các link web", default=r".\links_list.txt")
-parser.add_argument("--save", type=str, help="Đường dẫn lưu dữ liệu", default=r'.\data.json')
-# parser.add_argument("--db_name", type=str, required=True, help="Tên cơ sở dữ liệu (MongoDB)")
-# parser.add_argument("--user_name", type=str, required=True, help="Tên người dùng")
-# parser.add_argument("--pw", type=str, required=True, help="Mật khẩu")
-# parser.add_argument("--IP", type=str, required=True, help="Địa chỉ IP của server")
-# parser.add_argument("--port", type=str, required=True, help="Cổng PORT")
-
-# Phân tích các đối số
-args = parser.parse_args()
-
-# Mongo Database
-# Kết nối tới MongoDB
-# con = f'mongodf://{args.user_name}:{args.pw}@{args.IP}:{args.port}/{args.db_name}'
-con = "mongodb://localhost:27017/"
-client = MongoClient(con)
-
-# Chọn database (nếu database chưa tồn tại, nó sẽ được tạo tự động)
-db = client['dulieuvanban']
-
-# Chọn collection (nếu collection chưa tồn tại, nó sẽ được tạo tự động)
-collection = db['tiengviet']
-
-# URL của trang web bạn muốn crawl
-with open(args.links_list, 'r') as file:
-    web_list = file.read().splitlines()
-
-def crawler(id, url, list):
+def crawler_web(id, url, list):
     # Gửi yêu cầu GET đến trang web
     web_response = requests.get(url)
 
@@ -55,23 +23,52 @@ def crawler(id, url, list):
                 "Title": soup.title.string if soup.title else "",
                 "Content": "\n".join(p.get_text() for p in paragraphs),
             }
-           
+
             # Append the new data to the existing list
             list.append(data)
             print("Xong")
         else:
-            print(f"Trong web: {url} không có ")
+            print(f"Trong web: {url} không có dữ liệu cần dùng!!!")
     else:
         print(f'Không thể truy cập trang web: {url}. Mã trạng thái: {web_response.status_code}')
 
-list_data = []
-for i, url in enumerate(web_list):
-    crawler(i, url,list_data)
+def read_pdf(file_path):
+    table = []
+    # Open the PDF file
+    with pdfplumber.open(file_path) as pdf:
+        # Loop through each page and extract text
+        for page in pdf.pages:
+#             text += page.extract_text() + "\n"
+            texts = page.extract_text().split('\n')
+            table.append(texts)
+    return table
 
-# Chèn dữ liệu vào collection
-print(len(list_data))
-if len(list_data) > 0:
-    collection.insert_many(list_data)
-    print("Đã thêm xong dữ liệu vào trong database")
-else:
-    print("Dữ liệu trống")
+def download_pdf(url, output_path):
+    try:
+        response = requests.get(url, verify=False)
+        response.raise_for_status()  # Kiểm tra lỗi HTTP
+        with open(output_path, 'wb') as file:
+            file.write(response.content)
+        print(f"Tải xuống thành công: {output_path}")
+    except requests.RequestException as e:
+        print(f"Lỗi khi tải xuống: {url} - {e}")
+
+def crawler_pdf(links_list, list_pdf, output_dir):
+    for i, url in enumerate(links_list):
+        pdf_filename = url.split('/')[-1]
+        output_path = os.path.join(output_dir, pdf_filename)
+        print(output_path)
+        download_pdf(url, output_path)
+        try:
+            content = read_pdf(output_path)
+        except FileNotFoundError:
+            continue
+        for j in content:
+            text = " ".join(i for i in j)
+        info_pdf = {
+            "ID": i,
+            "URL_web": url,
+            "Title": " ".join(i for i in content[0][0:3]),
+            "Content_web":text
+        }
+        list_pdf.append(info_pdf)

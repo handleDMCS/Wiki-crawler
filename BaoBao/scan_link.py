@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser(description='Crawl data từ Web links')
 
 # Thêm các đối số
 parser.add_argument("--web_list", type=str, help="Đường dẫn của file chứa các link web trang chủ", default=r".\web_list.txt")
-parser.add_argument("--save", type=str, help="Đường dẫn lưu các link đã scan được link", default=r'.\links_list.txt')
+parser.add_argument("--save", type=str, help="Đường dẫn lưu các link đã scan được link", default=r'.\webs_list.txt')
 
 # Phân tích các đối số
 args = parser.parse_args()
