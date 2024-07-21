@@ -2,35 +2,56 @@ import requests
 from bs4 import BeautifulSoup
 import pdfplumber
 import os
+import json
 
-def crawler_web(id, url, list):
-    # Gửi yêu cầu GET đến trang web
-    web_response = requests.get(url)
+def crawler_web(url, list, dis_list):
+    try:
+        # Gửi yêu cầu GET đến trang web
+        web_response = requests.get(url)
 
-    # Kiểm tra nếu yêu cầu thành công
-    if web_response.status_code == 200:
-        print(f"Tiến hành truy xuất trang web: {url}")
+        # Kiểm tra nếu yêu cầu thành công
+        if web_response.status_code == 200:
+            print(f"Tiến hành truy xuất trang web: {url}")
 
-        # Phân tích nội dung HTML của trang
-        soup = BeautifulSoup(web_response.content, 'html.parser')
+            # Phân tích nội dung HTML của trang
+            soup = BeautifulSoup(web_response.content, 'html.parser')
 
-        # Trích xuất dữ liệu (ví dụ: tất cả các đoạn văn bản)
-        paragraphs = soup.find_all('p')
-        if (paragraphs):
-            data = {
-                "ID": id,
-                "URL": url,
-                "Title": soup.title.string if soup.title else "",
-                "Content": "\n".join(p.get_text() for p in paragraphs),
-            }
+            # Trích xuất dữ liệu (ví dụ: tất cả các đoạn văn bản)
+            paragraphs = soup.find_all('p')
+            if paragraphs:
+                data = {
+                    "URL": url,
+                    "Title": soup.title.string if soup.title else "",
+                    "Content": "\n".join(p.get_text() for p in paragraphs),
+                }
 
-            # Append the new data to the existing list
-            list.append(data)
-            print("Xong")
+                # Append the new data to the existing list
+                list.append(data)
+                print("Xong")
+            else:
+                print(f"Trong web: {url} không có dữ liệu cần dùng!!!")
         else:
-            print(f"Trong web: {url} không có dữ liệu cần dùng!!!")
-    else:
-        print(f'Không thể truy cập trang web: {url}. Mã trạng thái: {web_response.status_code}')
+            data = {
+                "url":url,
+                "Error": f"Status: {web_response.status_code}"
+                }
+            dis_list.append(data)
+            print(f'Không thể truy cập trang web: {url}. Mã trạng thái: {web_response.status_code}')
+
+    except requests.exceptions.ConnectionError:
+        data = {
+            "url":url,
+            "Error": f"Không thể kết nối!"
+            }
+        dis_list.append(data)
+        print(f'Không thể kết nối đến trang web: {url}')
+    except UnicodeEncodeError as e:
+        data = {
+            "url":url,
+            "Error": f"Lỗi mã hóa Unicode: {e}"
+            }
+        dis_list.append(data)
+        print(f'Lỗi mã hóa Unicode: {e}')
 
 def read_pdf(file_path):
     table = []
@@ -43,7 +64,7 @@ def read_pdf(file_path):
             table.append(texts)
     return table
 
-def download_pdf(url, output_path):
+def download_pdf(url, output_path, dis_list):
     try:
         response = requests.get(url, verify=False)
         response.raise_for_status()  # Kiểm tra lỗi HTTP
@@ -52,14 +73,19 @@ def download_pdf(url, output_path):
             file.write(response.content)
         print(f"Tải xuống thành công: {output_path}")
     except requests.RequestException as e:
+        data = {
+            "url":url,
+            "Error": f"Lỗi khi tải xuống: {e}"
+            }
+        dis_list.append(data)
         print(f"Lỗi khi tải xuống: {url} - {e}")
 
-def crawler_pdf(links_list, list_pdf, output_dir):
-    for i, url in enumerate(links_list):
+def crawler_pdf(links_list, list_pdf, output_dir, dis_list):
+    for url in links_list:
         pdf_filename = url.split('/')[-1]
         output_path = os.path.join(output_dir, pdf_filename)
         print(output_path)
-        download_pdf(url, output_path)
+        download_pdf(url, output_path, dis_list)
         try:
             content = read_pdf(output_path)
         except FileNotFoundError:
@@ -67,7 +93,6 @@ def crawler_pdf(links_list, list_pdf, output_dir):
         for j in content:
             text = " ".join(i for i in j)
         info_pdf = {
-            "ID": i,
             "URL_web": url,
             "Title": " ".join(i for i in content[0][0:3]),
             "Content_web":text

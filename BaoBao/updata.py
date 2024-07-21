@@ -11,13 +11,22 @@ if not os.path.exists(output_dir):
 parser = argparse.ArgumentParser(description='Crawl data từ Web links')
 
 # Thêm các đối số
-parser.add_argument("--web_links", type=str, help="Đường dẫn của file chứa các link web", default=r".\webs_list.txt")
-parser.add_argument("--pdf_links", type=str, help="Đường dẫn của file chứa các link tải PDF", default=r'.\pdf_list.txt')
-parser.add_argument("--db_name", type=str, required=True, help="Tên cơ sở dữ liệu (MongoDB)")
-parser.add_argument("--user_name", type=str, required=True, help="Tên người dùng")
-parser.add_argument("--pw", type=str, required=True, help="Mật khẩu")
-parser.add_argument("--IP", type=str, required=True, help="Địa chỉ IP của server")
-parser.add_argument("--port", type=str, required=True, help="Cổng PORT")
+parser.add_argument("--web_links", type=str, 
+                    help="Đường dẫn của file chứa các link web")#, 
+                    # default=r".\webs_list.txt")
+parser.add_argument("--pdf_links", type=str, 
+                    help="Đường dẫn của file chứa các link tải PDF")#, 
+                    # default=r'.\pdf_list.txt')
+parser.add_argument("--db_name", type=str, required=True, 
+                    help="Tên cơ sở dữ liệu (MongoDB)")
+parser.add_argument("--user_name", type=str, 
+                    required=True, help="Tên người dùng")
+parser.add_argument("--pw", type=str, 
+                    required=True, help="Mật khẩu")
+parser.add_argument("--IP", type=str, 
+                    required=True, help="Địa chỉ IP của server")
+parser.add_argument("--port", type=str, 
+                    required=True, help="Cổng PORT")
 
 # Phân tích các đối số
 args = parser.parse_args()
@@ -38,18 +47,45 @@ collection = db['tiengviet']
 with open(args.web_links, 'r') as file:
     web_list = file.read().splitlines()
 
-with open(args.pdf_links, 'r') as file:
-    pdf_list = file.read().splitlines()
+# with open(args.pdf_links, 'r') as file:
+#     pdf_list = file.read().splitlines()
 
 list_data = []
-for i, url in enumerate(web_list):
-    crawler_web(i, url,list_data)
+dis_list = []
+if args.web_links != None:
+    # URL của trang web bạn muốn crawl
+    with open(args.web_links, 'r') as file:
+        web_list = file.read().splitlines()
 
-crawler_pdf(pdf_list, list_data, output_dir)
+    for url in web_list:
+        crawler_web(url,list_data,dis_list)
+
+if args.pdf_links != None:
+    with open(args.pdf_links, 'r') as file:
+        pdf_list = file.read().splitlines()
+
+    crawler_pdf(pdf_list, list_data, output_dir, dis_list)
+
+if args.pdf_links == None and args.web_links == None:
+    print(f"Lỗi pdf_links: {args.pdf_links} và web_links: {args.web_links}")
+    print("Thoát!!!!")
+    exit()
 
 # Chèn dữ liệu vào collection
 if len(list_data) > 0:
-    collection.insert_many(list_data)
-    print("Đã thêm xong dữ liệu vào trong database")
+    for item in list_data:
+        try:
+            collection.insert_one(item)
+        except UnicodeEncodeError as e:
+            # print(item)
+            url = item['URL']
+            data = {
+                "URL": url,
+                "Error":f"Lỗi khi tải xuống {e}"
+            }
+            dis_list.append(data)
+            # list_data = [item for item in list_data if item["URL"] != url]
+            print(f"Lỗi khi tải xuống: {url} - {e}")
+        print("Đã thêm xong dữ liệu vào trong database")
 else:
     print("Dữ liệu trống")
