@@ -1,40 +1,69 @@
-# Mảng dữ liệu với các từ điển
-data = [
-    {
-        "URL": "http://example.com/page1",
-        "Title": "Page 1",
-        "Content": "This is the content of page 1."
-    },
-    {
-        "URL": "http://example.com/page2",
-        "Title": "Page 2",
-        "Content": "This is the content of page 2."
-    },
-    {
-        "URL": "http://example.com/page3",
-        "Title": "Page 3",
-        "Content": "This is the content of page 3."
-    }
-]
+from tree import TreeNode, search_tree, print_tree, split_url_to_path, get_url
 
-# In mảng trước khi xóa
-print("Mảng trước khi xóa phần tử:", data)
+# Khởi tạo cây
+root = TreeNode('Root')
+# child3 = TreeNode('Child3')
 
+# child1.add_child(TreeNode('Child1.1'))
+# child1.add_child(TreeNode('Child1.2'))
+# child2.add_child(TreeNode('Child2.1'))
+# child2.add_child(TreeNode('Child2.2'))
+# child3.add_child(TreeNode('Child3.1'))
+# child3.add_child(TreeNode('Child3.2'))
 
-# URL của phần tử cần xóa
-url_to_remove = "http://example.com/page2"
+# root.add_child(child3)
 
-data = [item for item in data if item["URL"] != url_to_remove]
+# # In cây
+# print("Tree structure:")
+# print_tree(root)
+"""
+    Printed!
+    Tree structure:
+    Root
+    Child1
+        Child1.1
+        Child1.2
+    Child2
+        Child2.1
+        Child2.2
+    Child3
+        Child3.1
+        Child3.2
+"""
 
-# In mảng sau khi xóa
-print("Mảng sau khi xóa phần tử:", data)
+# # Tìm kiếm trong cây
+# search_value = 'Child2.1'
+# found_node = search_tree(root, search_value)
+# if found_node:
+#     print(f"\nNode with value '{search_value}' found.")
+# else:
+#     print(f"\nNode with value '{search_value}' not found.")
 
-# Đường dẫn tới file JSON
-json_file_path = "output.json"
+"""
+    Printed!
+    Node with value 'Child2.1' found.
+"""
 
-# Ghi dữ liệu vào file JSON
-import json
-with open(json_file_path, "w", encoding="utf-8") as json_file:
-    json.dump(data, json_file, ensure_ascii=False, indent=4)
+# urls = [
+#     "https://funix.edu.vn/chia-se-kien-thuc/chuong-trinh-hoc/kien-thuc-cntt-co-ban",
+#     "https://funix.edu.vn/chia-se-kien-thuc/huong-nghiep",
+#     "https://funix.edu.vn/chia-se-kien-thuc/dang-ky-tu-van"
+# ]
 
-print(f"Dữ liệu đã được lưu vào file {json_file_path}")
+with open(r'D:\Projects\Wiki-crawler\BaoBao\link_folder\webs_list.txt', 'r') as file:
+    urls = file.read().splitlines()
+
+for url in urls:
+    path_list = split_url_to_path(url)
+    root.add_child(path_list)
+
+# In cây
+print("Cấu trúc cây:")
+root.print_tree()
+
+# Thu thập và in các URL ban đầu từ cây
+collected_urls = root.collect_urls()
+# print('\nCác URL đã khôi phục lại ban đầu:')
+# for url in collected_urls:
+#     print(url)
+
