@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import pdfplumber
 import os
 import json
+import time
 
 def add_error_url(dis_list):
     # Đường dẫn đến file JSON
@@ -139,3 +140,13 @@ def crawler_pdf(links_list, list_pdf, output_dir, dis_list):
             "Content_web":text
         }
         list_pdf.append(info_pdf)
+
+def timing_decorator(func):
+    def wrapper(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print(f"Thời gian chạy của {func.__name__} là: {elapsed_time:.6f} giây")
+        return result
+    return wrapper

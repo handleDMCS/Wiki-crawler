@@ -3,6 +3,7 @@ import argparse
 from pymongo import MongoClient
 from crawler import crawler_web, crawler_pdf, add_error_url
 import time
+from scan_link import get_link
 
 start = time.time()
 
@@ -14,10 +15,10 @@ if not os.path.exists(output_dir):
 parser = argparse.ArgumentParser(description='Crawl data từ Web links')
 
 # Thêm các đối số
-parser.add_argument("--web_links", type=str, default=r'.\link_folder\all_link_list.txt', 
+parser.add_argument("--web_links", type=str, default=r'.\web_folder\web_list.txt', 
                     help="Đường dẫn của file chứa các link web")#, 
                     # default=r".\webs_list.txt")
-parser.add_argument("--pdf_links", type=str, default=r'.\pdf_folder\all_pdf_list.txt', 
+parser.add_argument("--pdf_links", type=str, 
                     help="Đường dẫn của file chứa các link tải PDF")#, 
                     # default=r'.\pdf_list.txt')
 parser.add_argument("--db_name", type=str, default="dulieutiengviet", 
@@ -56,13 +57,19 @@ with open(args.web_links, 'r') as file:
 #     pdf_list = file.read().splitlines()
 
 list_data = []
+links_list = []
+pdfs_list = []
 dis_list = []
+
 if args.web_links != None:
     # URL của trang web bạn muốn crawl
     with open(args.web_links, 'r') as file:
         web_list = file.read().splitlines()
-
+    
     for url in web_list:
+        get_link(url, links_list, pdfs_list, dis_list)
+
+    for url in links_list:
         crawler_web(url,list_data,dis_list)
 
 if args.pdf_links != None:

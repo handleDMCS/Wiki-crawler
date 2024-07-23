@@ -2,14 +2,23 @@ import requests
 import argparse
 from bs4 import BeautifulSoup
 from crawler import add_error_url
+import time
+
+start = time.time()
 
 # Khởi tạo đối tượng
 parser = argparse.ArgumentParser(description='Crawl data từ Web links')
 
 # Thêm các đối số
-parser.add_argument("--web_list", type=str, help="Đường dẫn của file chứa các link web trang chủ", default=r".\web_folder\all_web_list.txt")
-parser.add_argument("--save_link", type=str, help="Đường dẫn lưu các link đã scan được link", default=r'.\link_folder\all_link_list.txt')
-parser.add_argument("--save_pdf", type=str, help="Đường dẫn lưu các link pdf đã scan được link", default=r'.\pdf_folder\pdfs_list.txt')
+parser.add_argument("--web_list", type=str, 
+                    help="Đường dẫn của file chứa các link web trang chủ", 
+                    default=r".\web_folder\web_list.txt")
+parser.add_argument("--save_link", type=str, 
+                    help="Đường dẫn lưu các link đã scan được link", 
+                    default=r'.\link_folder\link_list.txt')
+parser.add_argument("--save_pdf", type=str, 
+                    help="Đường dẫn lưu các link pdf đã scan được link", 
+                    default=r'.\pdf_folder\list.txt')
 
 # Phân tích các đối số
 args = parser.parse_args()
@@ -92,3 +101,5 @@ with open(args.save_pdf, "a", encoding="utf-8") as file:
         file.write(f"{item}\n")
 
 add_error_url(dis_list)
+end = time.time()
+print(f"Time loss: {end - start}s")

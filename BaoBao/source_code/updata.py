@@ -14,10 +14,10 @@ if not os.path.exists(output_dir):
 parser = argparse.ArgumentParser(description='Crawl data từ Web links')
 
 # Thêm các đối số
-parser.add_argument("--web_links", type=str, default=r'.\link_folder\all_link_list.txt', 
+parser.add_argument("--web_links", type=str, default=r'.\link_folder\webs_list.txt', 
                     help="Đường dẫn của file chứa các link web")#, 
                     # default=r".\webs_list.txt")
-parser.add_argument("--pdf_links", type=str, default=r'.\pdf_folder\all_pdf_list.txt', 
+parser.add_argument("--pdf_links", type=str, 
                     help="Đường dẫn của file chứa các link tải PDF")#, 
                     # default=r'.\pdf_list.txt')
 parser.add_argument("--db_name", type=str, default="dulieutiengviet", 
