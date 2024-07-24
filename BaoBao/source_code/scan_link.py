@@ -4,29 +4,29 @@ from bs4 import BeautifulSoup
 from crawler import add_error_url
 import time
 
-start = time.time()
+# start = time.time()
 
-# Khởi tạo đối tượng
-parser = argparse.ArgumentParser(description='Crawl data từ Web links')
+# # Khởi tạo đối tượng
+# parser = argparse.ArgumentParser(description='Crawl data từ Web links')
 
-# Thêm các đối số
-parser.add_argument("--web_list", type=str, 
-                    help="Đường dẫn của file chứa các link web trang chủ", 
-                    default=r".\web_folder\web_list.txt")
-parser.add_argument("--save_link", type=str, 
-                    help="Đường dẫn lưu các link đã scan được link", 
-                    default=r'.\link_folder\link_list.txt')
-parser.add_argument("--save_pdf", type=str, 
-                    help="Đường dẫn lưu các link pdf đã scan được link", 
-                    default=r'.\pdf_folder\list.txt')
+# # Thêm các đối số
+# parser.add_argument("--web_list", type=str, 
+#                     help="Đường dẫn của file chứa các link web trang chủ", 
+#                     default=r".\web_folder\web_list.txt")
+# parser.add_argument("--save_link", type=str, 
+#                     help="Đường dẫn lưu các link đã scan được link", 
+#                     default=r'.\link_folder\link_list.txt')
+# parser.add_argument("--save_pdf", type=str, 
+#                     help="Đường dẫn lưu các link pdf đã scan được link", 
+#                     default=r'.\pdf_folder\list.txt')
 
-# Phân tích các đối số
-args = parser.parse_args()
+# # Phân tích các đối số
+# args = parser.parse_args()
 
-# URL của trang web bạn muốn crawl
-links_list = []
-pdfs_list = []
-dis_list = []
+# # URL của trang web bạn muốn crawl
+# links_list = []
+# pdfs_list = []
+# dis_list = []
 
 def add_list(list, value):
     if value not in list:
@@ -55,7 +55,7 @@ def get_link(url, links_list, pdfs_list, dis_list):
             # Trích xuất các thuộc tính href từ các thẻ anchor
             for link in links:
                 href = link.get('href')
-                if not isinstance(href, str) or href == url:
+                if not isinstance(href, str):
                     continue
                 if href and check_link(href):
                     if href.startswith("http"):
@@ -84,22 +84,22 @@ def get_link(url, links_list, pdfs_list, dis_list):
         # list_data = [item for item in list_data if item["URL"] != url]
         print(f"Lỗi khi kết nối: {url} - {e}")
 
-# URL của trang web bạn muốn crawl
-with open(args.web_list, 'r') as file:
-    web_list = file.read().splitlines()
+# # URL của trang web bạn muốn crawl
+# with open(args.web_list, 'r') as file:
+#     web_list = file.read().splitlines()
 
-for url in web_list:
-    get_link(url, links_list, pdfs_list, dis_list)
+# for url in web_list:
+#     get_link(url, links_list, pdfs_list, dis_list)
     
-# Mở file ở chế độ ghi
-with open(args.save_link, "a", encoding="utf-8") as file:
-    for item in links_list:
-        file.write(f"{item}\n")
+# # Mở file ở chế độ ghi
+# with open(args.save_link, "a", encoding="utf-8") as file:
+#     for item in links_list:
+#         file.write(f"{item}\n")
 
-with open(args.save_pdf, "a", encoding="utf-8") as file:
-    for item in pdfs_list:
-        file.write(f"{item}\n")
+# with open(args.save_pdf, "a", encoding="utf-8") as file:
+#     for item in pdfs_list:
+#         file.write(f"{item}\n")
 
-add_error_url(dis_list)
-end = time.time()
-print(f"Time loss: {end - start}s")
+# add_error_url(dis_list)
+# end = time.time()
+# print(f"Time loss: {end - start}s")

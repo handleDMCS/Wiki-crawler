@@ -1,3 +1,5 @@
+from pymongo import MongoClient
+
 class TreeNode:
     def __init__(self, value):
         self.value = value
@@ -29,6 +31,12 @@ class TreeNode:
         print(f"{prefix}{self.value}")
         for child in self.children.values():
             child.print_tree(level + 1)
+    
+    def to_dict(self):
+        return {
+            "value": self.value,
+            "children": {key: child.to_dict() for key, child in self.children.items()}
+        }
 
 def search_tree(node, value):
     if node.value == value: 
@@ -51,3 +59,11 @@ def get_url(urls, last_urls):
     for url in urls:
         url.replace("Root/", "")
         last_urls.append(url)
+
+def save_tree_to_mongodb(tree, con,  db_name, collection_name='trees'):
+    client = MongoClient(con)
+    db = client[db_name]
+    collection = db[collection_name]
+    tree_dict = tree.to_dict()
+    collection.insert_one(tree_dict)
+    print("Tree saved to MongoDB")

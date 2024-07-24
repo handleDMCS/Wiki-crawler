@@ -2990,5 +2990,1557 @@
     {
         "url": "https://viblo.asia/newest/www.dmca.com/Protection/Status.aspx?ID=41818fcd-5a60-4504-867a-38fde606354e",
         "Error": "Status: 404"
+    },
+    {
+        "URL": "https://voz.vn/",
+        "Error": "M\u00e3 tr\u1ea1ng th\u00e1i: 403"
+    },
+    {
+        "URL": "https://voz.vn/",
+        "Error": "M\u00e3 tr\u1ea1ng th\u00e1i: 403"
+    },
+    {
+        "URL": "https://kynangso.edu.vn/",
+        "Error": "L\u1ed7i khi khi k\u1ebft n\u1ed1i ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+    },
+    {
+        "URL": "https://best4team.com/",
+        "Error": "L\u1ed7i khi khi k\u1ebft n\u1ed1i ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+    },
+    {
+        "URL": "https://moh.gov.vn/",
+        "Error": "L\u1ed7i khi khi k\u1ebft n\u1ed1i HTTPSConnectionPool(host='moh.gov.vn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1006)')))"
+    },
+    {
+        "url": "https://viblo.asia/www.dmca.com/Protection/Status.aspx?ID=41818fcd-5a60-4504-867a-38fde606354e",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://topdev.vn/tel:028 6273 3496",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://topdev.vn/tel:02862733496",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://topdev.vn/mailto:contact@topdev.vn",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://fptshop.com.vn/tel:1800.6601",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://fptshop.com.vn/tel:1800.6616",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://fptshop.com.vn/tel:02873023456",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://fptshop.com.vn/phu-kien/tai-nghe/tai-nghe-khong-day",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://fptshop.com.vn/undefined",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://vietnamnet.vn/talkshow ",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://accgroup.vn/dich-vu-hoan-thue-thu-nhap-ca-nhan-tncn",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://accgroup.vn/thu-tuc-hoan-thue-thu-nhap-ca-nhan",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://accgroup.vn/tel:084.696.7979",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://accgroup.vn/tel:19003330",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://accgroup.vn/tel:(028) 777.00.888",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://accgroup.vn/mau-bieu/phap-ly",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://accgroup.vn/page/tuyen-dung-demo.html",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://tailieu.vn/chu-de/",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://tailieu.vn/quychetailieu.pdf",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://tailieu.vn/mailto:support@tailieu.vn",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://thuvienphapluat.vn/page/goidichvulawsoft.aspx",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://thuvienphapluat.vn/page/lienhe.aspx",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://thuvienphapluat.vn/hdsd.aspx",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://thuvienphapluat.vn/page/viewcontentleft.aspx?key=3",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://thuvienphapluat.vn/page/dailyphanphoi.aspx",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://thuvienphapluat.vn/gioi-thieu/tuyendung.aspx",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://thuvienphapluat.vn/#tab2",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/#brx-footer",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/tel:18001093",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/category/khuyen-mai/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/category/su-kien/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/category/thong-bao/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/lien-he/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/gioi-thieu/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/wordpress-hosting/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/web-hosting/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/seo-hosting/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/hosting-gia-re/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/dang-ky-ten-mien/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/dang-ky-ten-mien/vn/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/bang-gia-ten-mien/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/tim-kiem-nhieu-ten-mien/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/vps/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/vps-nvme/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/vps-pho-thong/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/vps-gpu/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/vps-gia-re/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/thue-may-chu/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/thue-cho-dat-may-chu/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/mua-ssl/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/toi-uu-toc-do-website/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/directadmin-free/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/theme-plugin-free/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/free-ssl/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/dung-thu-hosting/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/khuyen-mai/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/thang-7-thue-server-vat-ly-tang-mien-phi-firewall-vietnix/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/vietnix-nha-tai-tro-kim-cuong-bootcamp-chien-luoc-seo-bat-bai-2024/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/chinh-sach-hoan-tien/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/huong-dan-thanh-toan/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/mailto:support@vietnix.com.vn",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/category/cap-nhat-san-pham/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/tuyen-dung/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/blog/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/chinh-sach-affiliate/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/whois/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/reseller/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/cam-ket-chat-luong-dich-vu/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/sang-nhuong-ten-mien/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/quy-dinh-su-dung-ten-mien-quoc-te/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/quy-dinh-su-dung-ten-mien-vn/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/chinh-sach-giai-quyet-khieu-nai/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/quy-dinh-chong-thu-rac/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/dieu-khoan-su-dung-dich-vu/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/dieu-khoan-affiliate/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/tel:0909688610",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/mailto:sales@vietnix.com.vn",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://vietnix.vn/www.dmca.com/Protection/Status.aspx?ID=ce976549-01f7-44cf-803b-8a883b40460d",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/vietnix-nhan-giai-thuong-hieu-viet-nam-xuat-sac-2022/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/vietnix-dat-chung-nhan-he-thong-quan-ly-chat-luong-iso-90012015/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/vietnix-dat-chung-nhan-iso-iec-27001-2022/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://vietnix.vn/",
+        "Error": "Kh\u00f4ng th\u1ec3 k\u1ebft n\u1ed1i!"
+    },
+    {
+        "url": "https://www.vsmail.vn/tel:0353872727",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://mesidasgroup.tumblr.com/mailto:?subject=A%20post%20from%20MESIDAS%20GROUP&body=Bi%E1%BA%BFn%20t%E1%BA%A7n%20INVT%20%7C%20T%E1%BB%95ng%20quan%20c%C3%A1c%20d%C3%B2ng%20Inverter%2FVFD%20c%E1%BB%A7a%20INVT%20-%20Bi%E1%BA%BFn%20t%E1%BA%A7n%20l%C3%A0%20thi%E1%BA%BFt%20b%E1%BB%8B%20%C4%91i%E1%BB%87n%20t%E1%BB%AD%20d%C3%B9ng%20%C4%91%E1%BB%83%20bi%E1%BA%BFn%20%C4%91%E1%BB%95i%20ngu%E1%BB%93n%20%C4%91i%E1%BB%87n%20xoay%20chi%E1%BB%81u%20c%C3%B3%20t%E1%BA%A7n%20s%E1%BB%91%20v%C3%A0%20bi%C3%AAn%20%C4%91%E1%BB%99%20x%C3%A1c%20%C4%91%E1%BB%8Bnh%20sang%20ngu%E1%BB%93n%20%C4%91i%E1%BB%87n%20xoay%20chi%E1%BB%81u...%20https%3A%2F%2Fmesidasgroup.tumblr.com%2Fpost%2F648881399145889792%2Fbien-tan-invt",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://mesidasgroup.tumblr.com/mailto:?subject=A%20link%20from%20MESIDAS%20GROUP&body=Bi%E1%BA%BFn%20t%E1%BA%A7n%20Siemens%20%7C%20C%C3%A1c%20d%C3%B2ng%20bi%E1%BA%BFn%20t%E1%BA%A7n%20SINAMICS%20VFD%20SIEMENS%20-%20Cung%20c%E1%BA%A5p%20c%C3%A1c%20lo%E1%BA%A1i%20bi%E1%BA%BFn%20t%E1%BA%A7n%20Siemens%20ch%C3%ADnh...%20https%3A%2F%2Fmesidasgroup.tumblr.com%2Fpost%2F648881024461373440%2Fbi%25E1%25BA%25BFn-t%25E1%25BA%25A7n-siemens-c%25C3%25A1c-d%25C3%25B2ng-bi%25E1%25BA%25BFn-t%25E1%25BA%25A7n-sinamics-vfd",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://mesidasgroup.tumblr.com/mailto:?subject=A%20post%20from%20MESIDAS%20GROUP&body=Arduino%20l%C3%A0%20g%C3%AC%3F%20T%E1%BB%95ng%20quan%20v%E1%BB%81%20bo%20m%E1%BA%A1ch%20vi%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n%20Arduino%20-%20Arduino%20l%C3%A0%20g%C3%AC%3F%20Arduino%20l%C3%A0%20m%E1%BB%99t%20bo%20m%E1%BA%A1ch%20vi%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n%20do%20m%E1%BB%99t%20nh%C3%B3m%20gi%C3%A1o%20s%C6%B0%20v%C3%A0%20sinh%20vi%C3%AAn%20n%C6%B0%E1%BB%9Bc%20%C3%9D%20thi%E1%BA%BFt%20k%E1%BA%BF%20v%C3%A0%20%C4%91%C6%B0a%20ra%20%C4%91%E1%BA%A7u%20ti%C3%AAn%20v%C3%A0o...%20https%3A%2F%2Fmesidasgroup.tumblr.com%2Fpost%2F630973211232894976%2Farduino-la-gi",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://mesidasgroup.tumblr.com/mailto:?subject=A%20post%20from%20MESIDAS%20GROUP&body=IPC%20l%C3%A0%20g%C3%AC%3F%20T%E1%BB%95ng%20quan%20v%E1%BB%81%20m%C3%A1y%20t%C3%ADnh%20c%C3%B4ng%20nghi%E1%BB%87p%20-%20Ch%C3%BAng%20ta%20th%C6%B0%E1%BB%9Dng%20hay%20nghe%20th%E1%BA%A5y%20nh%E1%BB%AFng%20kh%C3%A1i%20ni%E1%BB%87m%20hay%20c%E1%BB%A5m%20t%E1%BB%AB%20nh%C6%B0%3A%20PC%2C%20Laptop%2C%20m%C3%A1y%20t%C3%ADnh%20%C4%91%E1%BB%83%20b%C3%A0n%2C%20m%C3%A1y%20t%C3%ADnh%20x%C3%A1ch%20tay%2C..%20V%C3%A0%20%E1%BA%AFt...%20https%3A%2F%2Fmesidasgroup.tumblr.com%2Fpost%2F630706766027653120%2Fipc-may-tinh-cong-nghiep-la-gi",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://mesidasgroup.tumblr.com/mailto:?subject=A%20post%20from%20MESIDAS%20GROUP&body=T%E1%BB%95ng%20h%E1%BB%A3p%20c%C3%A1c%20chu%E1%BA%A9n%20giao%20ti%E1%BA%BFp%20%26%20giao%20th%E1%BB%A9c%20truy%E1%BB%81n%20th%C3%B4ng%20c%C3%B4ng%20nghi%E1%BB%87p%20-%20V%E1%BB%9Bi%20th%E1%BB%9Di%20%C4%91%E1%BA%A1i%20c%C3%B4ng%20ngh%E1%BB%87%20hi%E1%BB%87n%20nay%2C%20khoa%20h%E1%BB%8Dc%20%26%20k%E1%BB%B9%20thu%E1%BA%ADt%20ng%C3%A0y%20m%E1%BB%99t%20ph%C3%A1t%20tri%E1%BB%83n%20m%E1%BA%A1nh%20m%E1%BA%BD.%20%C4%90%E1%BB%93ng%20h%C3%A0nh%20theo...%20https%3A%2F%2Fmesidasgroup.tumblr.com%2Fpost%2F630525612334940160%2Fchuan-truyen-thong-cong-nghiep",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://mesidasgroup.tumblr.com/mailto:?subject=A%20post%20from%20MESIDAS%20GROUP&body=T%E1%BB%95ng%20quan%20PLC%20Unitronics%20UniStream%2C%20Vision%2C%20Samba%2C%20M91%20%26%20Jazz%20Series%20-%20UNITRONICS%20th%C3%A0nh%20l%E1%BA%ADp%20v%C3%A0o%20n%C4%83m%201989%2C%20v%E1%BB%9Bi%20h%C3%A0ng%20ch%E1%BB%A5c%20n%C4%83m%20l%C3%A0m%20vi%E1%BB%87c%20v%E1%BB%9Bi%20c%C3%A1c%20d%E1%BB%B1%20%C3%A1n%3A%20h%E1%BB%87%20th%E1%BB%91ng%20%C4%91%E1%BB%97%20xe%2C%20%C4%91%C3%B3ng%20g%C3%B3i%20v%C3%A0%20x%E1%BA%BFp...%20https%3A%2F%2Fmesidasgroup.tumblr.com%2Fpost%2F630434993596956672%2Fplc-unitronics",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://mesidasgroup.tumblr.com/mailto:?subject=A%20post%20from%20MESIDAS%20GROUP&body=PAC%20l%C3%A0%20g%C3%AC%3F%20B%E1%BB%99%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n%20t%E1%BB%B1%20%C4%91%E1%BB%99ng%20h%C3%B3a%20kh%E1%BA%A3%20tr%C3%ACnh%20PAC%20-%20V%E1%BB%9Bi%20s%E1%BB%B1%20c%E1%BA%A3i%20ti%E1%BA%BFn%20c%E1%BB%A7a%20khoa%20h%E1%BB%8Dc%20%26%20k%E1%BB%B9%20thu%E1%BA%ADt%2C%20nh%E1%BB%AFng%20c%C3%B4ng%20ngh%E1%BB%87%20t%C3%A2n%20ti%E1%BA%BFn%20%C4%91%C6%B0%E1%BB%A3c%20ra%20%C4%91%E1%BB%9Di.%20Gi%E1%BB%AFa%20c%C3%B4ng%20nghi%E1%BB%87p%20v%C3%A0%20c%C3%B4ng%20ngh%E1%BB%87%2C%20c%C3%B4ng%20nghi%E1%BB%87p%20ch%E1%BB%8Bu%20%E1%BA%A3nh...%20https%3A%2F%2Fmesidasgroup.tumblr.com%2Fpost%2F630344391277658112%2Fpac-la-gi",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://mesidasgroup.tumblr.com/mailto:?subject=A%20post%20from%20MESIDAS%20GROUP&body=Ng%C3%B4n%20ng%E1%BB%AF%20l%E1%BA%ADp%20tr%C3%ACnh%20PLC%20LD%2FLAD%2C%20FBD%2C%20ST%2FSTL%2C%20SFC%2C%20IL%2C%20C%2FC%2B%2B%20-%20Ladder%20diagram%20%28LD%2FLAD%29%2C%20structured%20text%20%28ST%2FSTL%29%2C%20function%20block%20%28FB%2FFBD%29%2C%20instruction%20list%20%28IL%29%2C%20sequential...%20https%3A%2F%2Fmesidasgroup.tumblr.com%2Fpost%2F629073708439519232%2Fngon-ngu-lap-trinh-plc",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://hoc247.net/hoi-dap/toan-hoc/",
+        "Error": "L\u1ed7i TooManyRedirects: Exceeded 30 redirects."
+    },
+    {
+        "url": "https://hoc247.net/hoi-dap/ngu-van/",
+        "Error": "L\u1ed7i TooManyRedirects: Exceeded 30 redirects."
+    },
+    {
+        "url": "https://hoc247.net/hoi-dap/tieng-anh/",
+        "Error": "L\u1ed7i TooManyRedirects: Exceeded 30 redirects."
+    },
+    {
+        "url": "https://hoc247.net/hoi-dap/vat-ly/",
+        "Error": "L\u1ed7i TooManyRedirects: Exceeded 30 redirects."
+    },
+    {
+        "url": "https://hoc247.net/hoi-dap/hoa-hoc/",
+        "Error": "L\u1ed7i TooManyRedirects: Exceeded 30 redirects."
+    },
+    {
+        "url": "https://hoc247.net/hoi-dap/sinh-hoc/",
+        "Error": "L\u1ed7i TooManyRedirects: Exceeded 30 redirects."
+    },
+    {
+        "url": "https://hoc247.net/hoi-dap/dia-ly/",
+        "Error": "L\u1ed7i TooManyRedirects: Exceeded 30 redirects."
+    },
+    {
+        "url": "https://hoc247.net/hoi-dap/lich-su/",
+        "Error": "L\u1ed7i TooManyRedirects: Exceeded 30 redirects."
+    },
+    {
+        "url": "https://hoc247.net/hoi-dap/gdcd/",
+        "Error": "L\u1ed7i TooManyRedirects: Exceeded 30 redirects."
+    },
+    {
+        "url": "https://hoc247.net/hoi-dap/tin-hoc/",
+        "Error": "L\u1ed7i TooManyRedirects: Exceeded 30 redirects."
+    },
+    {
+        "url": "https://hoc247.net/hoi-dap/cong-nghe/",
+        "Error": "L\u1ed7i TooManyRedirects: Exceeded 30 redirects."
+    },
+    {
+        "url": "https://www.ods.vn/tel:19006634",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://www.ods.vn/tel:(028) 7300 7788",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://www.ods.vn/mailto:info@ods.vn",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://nhandan.vn/tel:+842439382413",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://nhandan.vn/nhung-loi-can-dan-cua-tong-bi-thu-nguyen-phu-trong-danh-cho-the-he-tre-post820037.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/phat-bieu-cua-tong-bi-thu-nguyen-phu-trong-tai-hoi-nghi-so-ket-6-thang-dau-nam-2024-cua-dang-uy-cong-an-trung-uong-post817496.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/lam-tot-hon-nua-cong-tac-tham-muu-chien-luoc-xu-ly-hieu-qua-cac-tinh-huong-tuyet-doi-khong-de-bi-dong-bat-ngo-post820090.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tong-bi-thu-nguyen-phu-trong-la-tam-guong-cho-the-he-tre-post820764.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/danh-du-la-dieu-thieng-lieng-cao-quy-nhat-post820765.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nha-lanh-dao-co-nhieu-cong-hien-ve-tu-tuong-ly-luan-post820766.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/chu-de/ngay-thuong-binh-liet-si-704483.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ngay-thuong-binh-liet-si-277-ra-doi-nhu-the-nao-post707430.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ban-do-nghia-trang-liet-si-tren-ca-nuoc-post707478.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/can-tho-tang-hon-17000-phan-qua-cho-cac-gia-dinh-chinh-sach-post820647.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/anh-xuc-dong-khoang-khac-tri-an-nguoi-co-cong-tieu-bieu-cua-dat-nuoc-post820554.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/anh-hoi-nghi-tri-an-nguoi-co-cong-voi-cach-mang-nam-2024-post820636.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/75-nam-ngay-thuong-binh-liet-si-post707559.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hoan-canh-ra-doi-ngay-thuong-binh-liet-si-277-post707091.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/mai-toa-sang-dao-ly-uong-nuoc-nho-nguon-post365951.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/dai-tu-noi-ra-doi-ngay-thuong-binh-liet-si-post395683.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/thu-tuong-pham-minh-chinh-du-hoi-nghi-tri-an-nguoi-co-cong-voi-cach-mang-nam-2024-post820602.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/chu-tich-nuoc-to-lam-nguoi-co-cong-luon-phai-duoc-huong-day-du-thanh-qua-cua-su-nghiep-doi-moi-dat-nuoc-post820508.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hoi-nghi-bieu-duong-nguoi-co-cong-voi-cach-mang-tieu-bieu-toan-quoc-nam-2024-dien-ra-tai-ha-noi-post818874.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nang-cao-hieu-qua-cong-tac-tim-kiem-quy-tap-hai-cot-liet-si-post745664.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tim-thay-3-hai-cot-liet-si-o-binh-phuoc-post711804.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tiep-tuc-hanh-trinh-tri-an-vi-nhung-mon-no-an-tinh-post707679.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nhung-hinh-anh-khong-the-quen-tren-hanh-trinh-dua-cac-anh-ve-dat-me-post707528.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/anh-mai-ghi-cong-nhung-nguoi-linh-hy-sinh-vi-dat-nuoc-post804774.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nghia-trang-liet-si-tinh-an-giang-post708087.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nghia-trang-quoc-gia-duong-9-nhin-tu-tren-cao-post707501.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/toan-canh-nghia-trang-quoc-gia-duong-9-post707562.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/khuc-trang-ca-duong-20-quyet-thang-post707518.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nghia-trang-liet-si-duy-nhat-cua-tinh-thai-binh-duoc-xep-hang-di-tich-quoc-gia-post707545.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tiep-tuc-to-chuc-hoat-dong-ky-niem-77-nam-ngay-thuong-binh-liet-si-post820352.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/10-hoat-dong-trong-tam-trong-dip-ky-niem-77-nam-ngay-thuong-binh-liet-si-post818865.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/chu-de/hiep-dinh-geneva-704785.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hiep-dinh-geneva-nam-1954-minh-chung-cho-ban-linh-vung-vang-cua-nen-ngoai-giao-cach-mang-viet-nam-post818748.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nhung-dau-moc-quan-trong-trong-dam-phan-hiep-dinh-geneva-post818470.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/infographic-cac-nha-dam-phan-chu-chot-tai-hoi-nghi-geneva-post818300.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tu-dien-bien-phu-den-geneva-mot-ngoai-le-cua-lich-su-post793539.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/khang-dinh-vai-tro-lanh-dao-tien-quyet-cua-dang-cong-san-viet-nam-post820379.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/anh-hiep-dinh-geneva-dau-moc-lich-su-quan-trong-trong-su-nghiep-giai-phong-dan-toc-thong-nhat-dat-nuoc-post820308.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/quiz-dai-dien-cua-bao-nhieu-ben-da-tham-gia-khai-mac-hoi-nghi-geneva-post819103.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/boi-canh-lich-su-nao-da-dan-den-hoi-nghi-geneva-post818814.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/quiz-hoi-nghi-geneva-dien-ra-vao-thoi-gian-nao-post819096.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hiep-dinh-geneva-co-nhung-noi-dung-chinh-nao-post818502.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hiep-dinh-geneva-co-nhung-van-kien-chinh-nao-post818584.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ky-niem-70-nam-ngay-ky-hiep-dinh-geneva-ve-dinh-chi-chien-su-o-viet-nam-2171954-2172024-sang-ngoi-ban-linh-ngoai-giao-viet-nam-post820292.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/y-nghia-quan-su-va-chinh-tri-cua-hiep-dinh-geneva-post820290.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/thang-loi-to-lon-tren-con-duong-bao-ve-nen-doc-lap-dan-toc-post820291.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ke-thua-nhung-bai-hoc-tu-hiep-dinh-geneva-post820206.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hiep-dinh-geneva-va-nhung-bai-hoc-trong-hoach-dinh-trien-khai-duong-loi-doi-ngoai-post819957.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/de-dong-song-co-du-doi-bo-post819722.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hiep-dinh-geneva-nam-1954-dau-moc-lich-su-cua-nen-ngoai-giao-cach-mang-viet-nam-duoi-su-lanh-dao-cua-dang-post820002.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hiep-dinh-geneva-dinh-cao-thang-loi-cua-nen-ngoai-giao-viet-nam-post819934.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/truyen-thong-argentina-danh-gia-cao-y-nghia-cua-hiep-dinh-geneva-nam-1954-post819931.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/cau-chuyen-ve-buc-hoa-cua-picasso-mung-hoa-binh-lap-lai-o-viet-nam-post819842.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/khang-dinh-khat-vong-hoa-binh-va-doc-lap-post819866.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/chu-de/viet-nam-campuchia-704495.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/thong-tin-co-ban-ve-vuong-quoc-campuchia-post710168.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hoc-gia-campuchia-duoi-su-lanh-dao-cua-dang-dung-dau-la-tong-bi-thu-nguyen-phu-trong-dat-nuoc-viet-nam-tiep-tuc-phat-trien-manh-me-tren-moi-linh-vuc-post820635.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/moc-son-moi-trong-quan-he-doan-ket-gan-bo-viet-nam-lao-campuchia-post819102.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tang-cuong-gan-ket-hop-tac-truyen-thong-hieu-qua-giua-ba-nuoc-viet-nam-lao-campuchia-post818987.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/chu-tich-nuoc-to-lam-tham-truong-dai-hoc-hoang-gia-phnom-penh-post818975.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/chu-tich-nuoc-to-lam-roi-phnom-penh-ket-thuc-tot-dep-chuyen-tham-campuchia-post818972.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/dang-nhan-dan-campuchia-phan-dau-dua-dat-nuoc-dat-duoc-nhung-muc-tieu-quan-trong-post816594.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/campuchia-ky-niem-47-nam-con-duong-tien-toi-danh-do-che-do-diet-chung-pol-pot-post815275.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/bo-truong-quoc-phong-my-tham-campuchia-post812617.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/thuong-vien-campuchia-tang-cuong-hop-tac-quoc-te-post812273.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/campuchia-bau-cu-hoi-dong-thu-do-tinh-thanh-pho-quan-huyen-khoa-iv-post811204.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nhieu-nguoi-thuong-vong-trong-vu-no-lon-o-campuchia-post806976.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/chu-tich-nuoc-to-lam-tham-va-lam-viec-tai-cong-ty-vien-thong-metfone-post818956.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/chu-tich-nuoc-to-lam-hoi-dam-thu-tuong-campuchia-hun-manet-post818945.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/chu-de/viet-nam-lao-704477.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/moi-quan-he-mau-muc-trong-sang-thuy-chung-va-gan-bo-post705982.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/thong-tin-co-ban-ve-chdcnd-lao-post705969.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/dong-chi-nguyen-phu-trong-gop-phan-quan-trong-to-lon-va-quy-bau-vao-viec-cung-co-moi-quan-he-dac-biet-viet-nam-lao-post820552.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/phat-huy-vai-tro-cau-noi-trong-moi-quan-he-viet-nam-lao-post820026.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/da-nang-va-salavan-lao-day-manh-hop-tac-quoc-te-trong-nang-cao-chat-luong-to-chuc-doan-post819524.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/lao-san-sang-cho-hoi-nghi-bo-truong-ngoai-giao-asean-lan-thu-57-post819083.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/lao-keu-goi-nguoi-dan-tang-cuong-phong-chong-sot-xuat-huyet-trong-mua-mua-post816777.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/lao-tap-trung-phat-trien-co-so-ha-tang-ket-noi-voi-khu-vuc-va-quoc-te-post814596.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/lao-va-campuchia-that-chat-quan-he-hop-tac-post801670.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/lao-uoc-thu-4-ty-usd-tu-xuat-khau-dien-va-khoang-san-nam-2024-post790215.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/lao-khuyen-khich-viec-su-dung-xe-dien-post790099.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/vun-dap-quan-he-huu-nghi-vi-dai-viet-nam-lao-post818887.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/bao-chi-lao-trang-trong-dua-tin-dam-net-ve-chuyen-tham-cua-chu-tich-nuoc-to-lam-post818855.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/trong-24-gio-toi-bao-giat-cap-10-se-vao-vung-bien-quang-ninh-hai-phong-post820417.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/lao-tuyen-bo-quoc-tang-tuong-niem-tong-bi-thu-nguyen-phu-trong-post820447.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/gia-vang-ngay-227-bat-tang-post820428.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/xet-xu-cuu-chu-tich-tap-doan-flc-trinh-van-quyet-va-49-dong-pham-post820500.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/khoi-dau-moi-trong-quan-he-anh-eu-post820761.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/post-740596.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/post-654612.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tang-muc-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-xay-dung-post820759.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/xay-dung-tag9457.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/quan-he-viet-nam-colombia-ngay-cang-di-vao-thuc-chat-post820775.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tang-qua-gia-dinh-chinh-sach-nhan-dip-ky-niem-277-va-ky-niem-60-nam-chien-thang-tran-dau-cua-hai-quan-nhan-dan-viet-nam-post820702.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/forbes-advisor-goi-ten-thanh-pho-du-lich-an-toan-nhat-tren-the-gioi-post820774.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tham-do-bau-cu-my-2024-ba-kamala-harris-vuot-len-dan-truoc-ong-donald-trump-post820773.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/doan-the-thao-viet-nam-len-duong-du-olympic-paris-2024-post820744.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tag/olympic+paris.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/infographic-hoi-nghi-tri-an-nguoi-co-cong-voi-cach-mang-nam-2024-post820561.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/infographic-le-vieng-le-truy-dieu-va-le-an-tang-tong-bi-thu-nguyen-phu-trong-post820281.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/infographic-so-vu-chong-canh-sat-giao-thong-thi-hanh-cong-vu-6-thang-dau-nam-2024-tang-hon-136-so-cung-ky-post819772.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/truyen-hinh-nhan-dan/",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/dong-nai-bat-an-vi-nha-may-xu-ly-rac-gay-o-nhiem-keo-dai-post820781.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tre-viem-nao-viem-mang-nao-tiep-tuc-gia-tang-post820780.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/mo-cua-xa-lu-ho-thuy-dien-hoa-binh-post820747.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/4-san-bay-bi-anh-huong-boi-bao-so-2-post820746.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/chuong-trinh-thoi-su-22h-ngay-23-7-2024-post820745.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/thuc-hien-chuong-trinh-quoc-gia-phat-trien-vung-dan-toc/",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/quy-dinh-ro-tieu-chi-nguyen-tac-phan-bo-ngan-sach-thuc-hien-cac-chuong-trinh-muc-tieu-quoc-gia-post792345.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nong-nghiep-dien-bien-vuot-kho-giu-nhip-tang-truong-ben-vung-post789628.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/phu-tho-giai-quyet-viec-lam-cho-lao-dong-la-nguoi-dan-toc-thieu-so-post787749.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/bao-nhan-dan-so-25094-post820768.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hoi-dap-ve-dich-covid-19/",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/da-tung-mac-omicron-bien-the-phu-khac-lieu-co-mac-lai-bien-the-nay-khong-post704667.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/bien-the-phu-moi-ba5-nguy-hiem-the-nao-post704662.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/co-can-tiem-vaccine-covid-19-mui-nhac-lai-khi-da-tung-nhiem-covid-19-post704438.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/9-yeu-to-nguy-co-sau-nhiem-covid-19-o-tre-em-post704171.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/khi-nao-tre-tu-12-17-tuoi-se-tiem-vaccine-phong-covid-19-mui-3-post701803.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/anh-thu-tuong-pham-minh-chinh-hop-thuc-day-du-an-duong-day-500kv-mach-3-post820527.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/anh-tong-bi-thu-nguyen-phu-trong-mot-phong-cach-mau-muc-cua-dai-bieu-nhan-dan-post820516.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nhung-quan-diem-chi-dao-sau-sac-cua-tong-bi-thu-trong-cong-tac-van-hoa-post820749.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/chu-tich-nuoc-gap-mat-ban-lien-lac-dai-doan-305-du-dac-cong-post820748.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tong-bi-thu-nguyen-phu-trong-nguoi-truyen-lua-chong-giac-noi-xam-post820559.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tong-bi-thu-nguyen-phu-trong-va-tinh-cam-voi-thu-do-ha-noi-post820556.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tinh-cam-cua-nguoi-dan-bien-gioi-voi-tong-bi-thu-nguyen-phu-trong-post820334.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/#tab0",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/#tab1",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/#tab2",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/#tab3",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ban-tin-thoi-su-sang-ngay-24072024-post820772.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ban-tin-thoi-su-chieu-ngay-23072024-post820683.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ban-tin-thoi-su-sang-ngay-23072024-post820565.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ban-tin-thoi-su-chieu-ngay-22072024-post820515.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/truyen-ngan-di-man-post820443.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/truyen-ngan-ong-ba-ngay-xua-post819989.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/truyen-ngan-chieu-tim-song-giang-post818792.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/truyen-ngan-cai-thong-long-post817973.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/truyen-ngan-thi-tran-cua-nhung-giac-mo-post817532.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/truyen-ngan-nang-o-doi-hoang-post816889.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ban-tin-thoi-su-sang-ngay-22072024-post820396.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ban-tin-thoi-su-chieu-ngay-21072024-post820342.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ban-tin-thoi-su-sang-ngay-21072024-post820301.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ban-tin-thoi-su-sang-ngay-20072024-post820048.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ban-tin-thoi-su-chieu-ngay-19072024-post819999.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tieu-diem-cach-yeu-rung-cua-dong-bao-co-tu-o-quang-nam-post773272.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/my-cam-moi-cho-van-hoa-lang-post773271.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/lap-nghiep-o-que-ngay-khi-con-tre-post773270.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ong-nong-thon-moi-o-glar-post773269.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nang-luong-chua-lanh-duoi-tan-xanh-post773268.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hoat-dong-cua-lanh-dao-dang-nha-nuoc-post820767.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/phe-chuan-mien-nhiem-chuc-vu-chu-tich-uy-ban-nhan-dan-tinh-bac-ninh-post820742.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ky-luat-canh-cao-nguyen-chu-tich-uy-ban-nhan-dan-tinh-ninh-thuan-luu-xuan-vinh-post820743.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hau-giang-thuc-day-kinh-te-tap-the-post820752.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/viet-nam-cuba-tang-cuong-ho-tro-hop-tac-giua-cac-doanh-nghiep-xay-dung-post820710.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/vietjet-va-airbus-ky-hop-dong-20-tau-a330neo-tri-gia-74-ty-usd-post820698.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/trao-tang-anh-phuc-dung-chan-dung-liet-si-va-tu-sach-dang-thuy-tram-post820691.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/viet-nam-chung-tay-cung-cac-thanh-vien-uy-ban-di-san-the-gioi-thuc-day-hop-tac-bao-ton-va-phat-huy-gia-tri-di-san-post820638.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/lan-toa-nhung-gia-tri-dac-sac-tieu-bieu-cua-cac-bao-vat-quoc-gia-post820608.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ha-noi-phan-luong-giao-thong-phuc-vu-quoc-tang-tong-bi-thu-nguyen-phu-trong-post820733.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nguyen-song-xung-dang-voi-tam-guong-dao-duc-cua-tong-bi-thu-nguyen-phu-trong-post820712.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/phuc-vu-chu-dao-chuyen-bay-dua-don-cac-doan-dai-bieu-du-le-quoc-tang-tong-bi-thu-nguyen-phu-trong-post820709.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/dai-hoc-quoc-gia-ha-noi-trong-nhom-100-co-so-giao-duc-hang-dau-chau-a-ve-tieu-chi-muc-do-anh-huong-post820707.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/yeu-cau-kiem-tra-toan-bo-quy-trinh-mua-sam-trang-thiet-bi-truong-hoc-tai-bac-kan-post820430.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/truong-dai-hoc-nha-trang-cang-buom-tri-thuc-vuon-khoi-post820431.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/bo-y-te-yeu-cau-xu-ly-nghiem-co-so-tham-my-hoat-dong-chui-post820629.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/hoai-tu-vung-cang-chan-vi-chua-benh-bang-phuong-phap-dung-ong-dot-post820627.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/dao-tao-chuyen-giao-ky-thuat-kham-chua-benh-cho-benh-vien-da-khoa-tinh-binh-thuan-post820550.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/mau-thuan-gia-tang-ve-van-de-ukraine-post820763.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/de-cao-tinh-than-doan-ket-va-binh-dang-tren-toan-cau-post820753.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/giam-doc-mat-vu-my-tu-chuc-sau-vu-ong-trump-bi-am-sat-hut-post820741.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/phat-trien-thi-truong-du-lich-danh-cho-khach-huu-tri-post820754.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nhung-ngoi-chua-doc-dao-o-tieu-tay-tang-trung-quoc-post820575.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/nhat-ban-doi-pho-thach-thuc-bung-no-du-lich-post820293.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/2024-la-nam-trong-diem-cua-cac-doi-tuyen-quoc-gia-post820681.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/giai-toa-tam-ly-u19-viet-nam-truoc-tran-dau-cuoi-post820649.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/mang-luoi-an-ninh-dac-biet-san-sang-phuc-vu-the-van-hoi-paris-2024-post820529.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/dien-hai-luu-nang-luong-tiem-nang-duoi-dai-duong-post820676.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/han-quoc-nguoi-sang-lap-kakao-bi-bat-giu-vi-thao-tung-chung-khoan-post820633.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/bi-chiem-quyen-dieu-khien-dien-thoai-do-cai-dat-phan-mem-dich-vu-cong-gia-mao-post820418.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tham-o-hang-tram-ty-dong-nguyen-thu-quy-truong-dai-hoc-bach-khoa-da-nang-linh-an-tu-hinh-post820699.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/quang-nam-bat-4-can-bo-gay-thiet-hai-ngan-sach-nha-nuoc-hon-38-ty-dong-post820687.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/dieu-tra-nguyen-nhan-vu-tai-nan-giao-thong-khien-3-nguoi-tu-vong-post820599.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/the-gioi-ghi-nhan-ngay-nong-nhat-lich-su-vao-hom-217-post820705.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/mua-lon-keo-dai-giao-thong-o-son-la-tiem-an-nhieu-nguy-hiem-post820692.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/lao-cai-sat-lo-dat-da-gay-ach-tac-duong-len-sa-pa-post820669.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/cham-hoi-am-post819662.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ket-qua-thu-ban-doc-post819661.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ket-qua-thu-ban-doc-ngay-1772024-post819490.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/bancanbiet/",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/dien-luc-mien-nam-tham-va-tang-qua-thuong-binh-benh-binh-tai-trung-tam-dieu-duong-thuong-binh-va-nguoi-co-cong-long-dat-post820671.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/don-doc-nhan-dan-hang-thang-so-327-thang-72024-post820429.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/cap-nuoc-nha-be-phuc-vu-khach-hang-tien-ich-thong-minh-post820601.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ha-noi-chu-dong-ung-pho-ap-thap-nhiet-doi-gay-mua-lon-post820641.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/ha-noi-dung-hoan-cac-chuong-trinh-nghe-thuat-thi-dau-the-thao-va-hoat-dong-vui-choi-giai-tri-trong-nhung-ngay-le-quoc-tang-post820532.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tim-giai-phap-vuc-day-chi-so-pci-papi-post820541.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/cac-dia-phuong-day-nhanh-giai-ngan-von-dau-tu-cong-post820551.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/thuc-day-kinh-te-dich-vu-ven-song-post820549.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tao-thuan-loi-cho-doanh-nghiep-co-khi-viet-nam-an-do-hop-tac-hieu-qua-post820548.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/no-luc-binh-on-thi-truong-xang-dau-post704481.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/phat-bieu-tai-nghi-truong-quyen-trach-nhiem-post701982.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/be-phong-cho-bong-ban-dinh-cao-post704386.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/tinh-toan-bien-phap-giam-thue-post704482.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/phan-loai-rac-tai-nguon-post702655.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/mau-hinh-xa-hoi-hoa-chuyen-nghiep-hoa-post704383.html",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://nhandan.vn/mailto:nhandandientu@nhandan.vn",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://loigiaihay.com/www.dmca.com/Protection/Status.aspx?ID=58bfe12e-47c6-4ce9-b0d3-8b2f7abac883",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://itnavi.com.vn/tel:0932.684.295",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://itnavi.com.vn/ https://itnavi.com.vn/employer-service ",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://itnavi.com.vn/job/Vue.js",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://itnavi.com.vn/job/Node.js",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://itnavi.com.vn/job/React.js",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://itnavi.com.vn/mailto:customer@itnavi.com.vn",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://vienhuyethoc.vn/tel:0976990066",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://vienhuyethoc.vn/tel:1900969670",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://vienhuyethoc.vn/tel:",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://vienhuyethoc.vn/tel:0967 89 1616",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://bvnghean.vn/tel:19008082 - 0886.234.222",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://medpro.vn/tel:19002115",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://baodautu.vn/www.dmca.com/Protection/Status.aspx?ID=756edc3f-6630-4ac6-988c-86ee615baec5",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://cncvina.com.vn/tel:0916639355",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://cncvina.com.vn/tel:0962180180",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://cncvina.com.vn/category-product/nha-may-thong-minh",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://cncvina.com.vn/category-product/day-chuyen-son",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://cncvina.com.vn/category-product/gia-cong-cnc",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://cncvina.com.vn/www.dmca.com/Protection/Status.aspx?ID=8b3d7a3f-9465-4922-aa98-44a68c02a9f5",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://kiemtradaovan.com/mailto:hotroktdv@gmail.com",
+        "Error": "Status: 400"
+    },
+    {
+        "url": "https://kiemtradaovan.com/sitemap.htm",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://base.vn/tel:+842422441313",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://base.vn/tel:0977575309",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://base.vn/tel:+84896691313",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://base.vn/tel:0966203993",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://vinno.vn/mailto:info@vinno.vn",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://vinno.vn/tel:0899172899",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://www.unite.ai/\n https://www.unite.ai/category/artificial-intelligence/\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://www.unite.ai/\n https://www.unite.ai/category/interviews/\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://www.unite.ai/\n https://www.unite.ai/category/thought-leaders/\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://www.unite.ai/\n https://www.unite.ai/category/writing-generators/\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "Error": "Status: 403"
+    },
+    {
+        "url": "https://luanvan.moet.gov.vn/",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://luanvan.moet.gov.vn/?page=10.1",
+        "Error": "Status: 404"
+    },
+    {
+        "url": "https://luanvan.moet.gov.vn/?page=1.0",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://luanvan.moet.gov.vn/?page=1.31&get=&od=r",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://luanvan.moet.gov.vn/?page=1.31&get=&od=v",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://luanvan.moet.gov.vn/?page=1.31&page_num=2",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://luanvan.moet.gov.vn/?page=1.31&page_num=3",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://luanvan.moet.gov.vn/?page=1.31&page_num=220",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://luanvan.moet.gov.vn/?page=1.31&page_num=221",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://luanvan.moet.gov.vn/?page=1.31&page_num=222",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://luanvan.moet.gov.vn/?page=1.31&lv=30",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://luanvan.moet.gov.vn/?page=1.2&lv=22",
+        "Error": "Status: 500"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Ai-Tran-Thanh/publication/234033555_Chu_nghia_de_quoc_ngon_ngu/links/02bfe50e6a6cecce7c000000/Chu-nghia-de-quoc-ngon-ngu.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Ai-Tran-Thanh/publication/234033555_Chu_nghia_de_quoc_ngon_ngu/links/02bfe50e6a6cecce7c000000/Chu-nghia-de-quoc-ngon-ngu.pdf"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Nhat-Tung-Le-2/publication/380817820_Ung_dung_mo_hinh_Fastpitch_trong_bai_toan_chuyen_doi_van_ban_tieng_Viet_thanh_giong_noi/links/664f9b0b22a7f16b4f44e60e/Ung-dung-mo-hinh-Fastpitch-trong-bai-toan-chuyen-doi-van-ban-tieng-Viet-thanh-giong-noi.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Nhat-Tung-Le-2/publication/380817820_Ung_dung_mo_hinh_Fastpitch_trong_bai_toan_chuyen_doi_van_ban_tieng_Viet_thanh_giong_noi/links/664f9b0b22a7f16b4f44e60e/Ung-dung-mo-hinh-Fastpitch-trong-bai-toan-chuyen-doi-van-ban-tieng-Viet-thanh-giong-noi.pdf"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Thuy-Nguyen-Thanh-4/publication/327882489_Applying_Multi-Class_SVMs_into_building_chatbot_Vietnamese_question_answering_system/links/5bab0fd892851ca9ed25ec23/Applying-Multi-Class-SVMs-into-building-chatbot-Vietnamese-question-answering-system.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Thuy-Nguyen-Thanh-4/publication/327882489_Applying_Multi-Class_SVMs_into_building_chatbot_Vietnamese_question_answering_system/links/5bab0fd892851ca9ed25ec23/Applying-Multi-Class-SVMs-into-building-chatbot-Vietnamese-question-answering-system.pdf"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Quoc-Dinh-Truong/publication/321288416_Huong_tiep_can_khong_toan_van_cho_bai_toan_phan_lop_tu_dong_ban_tin_tieng_Viet/links/5a18d82d4585155c26a95c85/Huong-tiep-can-khong-toan-van-cho-bai-toan-phan-lop-tu-dong-ban-tin-tieng-Viet.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Quoc-Dinh-Truong/publication/321288416_Huong_tiep_can_khong_toan_van_cho_bai_toan_phan_lop_tu_dong_ban_tin_tieng_Viet/links/5a18d82d4585155c26a95c85/Huong-tiep-can-khong-toan-van-cho-bai-toan-phan-lop-tu-dong-ban-tin-tieng-Viet.pdf"
+    },
+    {
+        "url": "https://uet.vnu.edu.vn/~thuyhq/Student_Thesis/K46_Nguyen_Cam_Tu_Thesis.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: HTTPSConnectionPool(host='uet.vnu.edu.vn', port=443): Max retries exceeded with url: /~thuyhq/Student_Thesis/K46_Nguyen_Cam_Tu_Thesis.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002A8DBEC2E90>, 'Connection to uet.vnu.edu.vn timed out. (connect timeout=None)'))"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Phan-Hy/publication/380344078_VERIFICATION_OF_VIETNAMESE_SIGNATURES_WITH_CNN_MODEL/links/663656133524304153612812/VERIFICATION-OF-VIETNAMESE-SIGNATURES-WITH-CNN-MODEL.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Phan-Hy/publication/380344078_VERIFICATION_OF_VIETNAMESE_SIGNATURES_WITH_CNN_MODEL/links/663656133524304153612812/VERIFICATION-OF-VIETNAMESE-SIGNATURES-WITH-CNN-MODEL.pdf"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Duc-Nghia-Tran/publication/356132506_CHATBOT_SOLUTIONS_FOR_HEALTH_CARE_SUPPORT_IN_VIETNAMESE_REGION/links/618d0c2107be5f31b767e2cc/CHATBOT-SOLUTIONS-FOR-HEALTH-CARE-SUPPORT-IN-VIETNAMESE-REGION.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Duc-Nghia-Tran/publication/356132506_CHATBOT_SOLUTIONS_FOR_HEALTH_CARE_SUPPORT_IN_VIETNAMESE_REGION/links/618d0c2107be5f31b767e2cc/CHATBOT-SOLUTIONS-FOR-HEALTH-CARE-SUPPORT-IN-VIETNAMESE-REGION.pdf"
+    },
+    {
+        "url": "http://www.uet.vnu.edu.vn/~thuyhq/Student_Thesis/K59_Nguyen-Thi-Lan_Thesis.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: HTTPConnectionPool(host='www.uet.vnu.edu.vn', port=80): Max retries exceeded with url: /~thuyhq/Student_Thesis/K59_Nguyen-Thi-Lan_Thesis.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002A8E6693050>, 'Connection to www.uet.vnu.edu.vn timed out. (connect timeout=None)'))"
+    },
+    {
+        "url": "https://ktpt.neu.edu.vn/Uploads/Bai%20bao/2020/So%20273/379206.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://ktpt.neu.edu.vn/Uploads/Bai%20bao/2020/So%20273/379206.pdf"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Quoc-Dinh-Truong/publication/259903895_Mot_giai_phap_tom_tat_van_ban_tieng_Viet_tu_dong/links/0046352e7ce6a4605f000000/Mot-giai-phap-tom-tat-van-ban-tieng-Viet-tu-dong.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Quoc-Dinh-Truong/publication/259903895_Mot_giai_phap_tom_tat_van_ban_tieng_Viet_tu_dong/links/0046352e7ce6a4605f000000/Mot-giai-phap-tom-tat-van-ban-tieng-Viet-tu-dong.pdf"
+    },
+    {
+        "url": "https://apps.agu.edu.vn/qlkh/storage/app/agu/6a8afc8c7faeb2a15db8c6e45163fa5c.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: HTTPSConnectionPool(host='apps.agu.edu.vn', port=443): Max retries exceeded with url: /qlkh/storage/app/agu/6a8afc8c7faeb2a15db8c6e45163fa5c.pdf (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1006)')))"
+    },
+    {
+        "url": "http://lib.yhn.edu.vn/bitstream/YHN/20784/1/441188.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: ('Connection broken: IncompleteRead(24240 bytes read, 296392 more expected)', IncompleteRead(24240 bytes read, 296392 more expected))"
+    },
+    {
+        "url": "https://ktpt.neu.edu.vn/Uploads/Bai%20bao/2020/So%20278/379320.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://ktpt.neu.edu.vn/Uploads/Bai%20bao/2020/So%20278/379320.pdf"
+    },
+    {
+        "url": "http://www.uet.vnu.edu.vn/~thuyhq/Student_Thesis/K51_Nguyen_Tien_Thanh_Thesis.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: HTTPConnectionPool(host='www.uet.vnu.edu.vn', port=80): Max retries exceeded with url: /~thuyhq/Student_Thesis/K51_Nguyen_Tien_Thanh_Thesis.pdf (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002A87F8CB050>, 'Connection to www.uet.vnu.edu.vn timed out. (connect timeout=None)'))"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Le-Minh-27/publication/355737722_Thich_ung_phien_ban_rut_gon_cua_Bang_kiem_ung_pho_voi_cac_tinh_huong_cang_thang_tren_nhom_mau_Viet_Nam_Adapting_Coping_Inventory_for_Stressful_Situations_Situation_Specific_VersionCISSSSC_among_Vietna/links/617be534eef53e51e1ff7db5/Thich-ung-phien-ban-rut-gon-cua-Bang-kiem-ung-pho-voi-cac-tinh-huong-cang-thang-tren-nhom-mau-Viet-Nam-Adapting-Coping-Inventory-for-Stressful-Situations-Situation-Specific-Version-CISSSSC-among-Vietn.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Le-Minh-27/publication/355737722_Thich_ung_phien_ban_rut_gon_cua_Bang_kiem_ung_pho_voi_cac_tinh_huong_cang_thang_tren_nhom_mau_Viet_Nam_Adapting_Coping_Inventory_for_Stressful_Situations_Situation_Specific_VersionCISSSSC_among_Vietna/links/617be534eef53e51e1ff7db5/Thich-ung-phien-ban-rut-gon-cua-Bang-kiem-ung-pho-voi-cac-tinh-huong-cang-thang-tren-nhom-mau-Viet-Nam-Adapting-Coping-Inventory-for-Stressful-Situations-Situation-Specific-Version-CISSSSC-among-Vietn.pdf"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Van-Hieu-Vu-2/publication/369753747_Mot_ky_thuat_dinh_vi_trong_nha_bang_WiFi_hieu_qua_su_dung_hoc_may_ket_hop/links/64ccc4e7d394182ab3a16f86/Mot-ky-thuat-dinh-vi-trong-nha-bang-WiFi-hieu-qua-su-dung-hoc-may-ket-hop.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Van-Hieu-Vu-2/publication/369753747_Mot_ky_thuat_dinh_vi_trong_nha_bang_WiFi_hieu_qua_su_dung_hoc_may_ket_hop/links/64ccc4e7d394182ab3a16f86/Mot-ky-thuat-dinh-vi-trong-nha-bang-WiFi-hieu-qua-su-dung-hoc-may-ket-hop.pdf"
+    },
+    {
+        "url": "https://hoithaokhcn.tlu.edu.vn/Portals/7/2015/KHXH/77.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Dau-Hoang/publication/333610454_Phat_hien_botnet_dua_tren_hoc_may_su_dung_du_lieu_truy_van_DNS_Phan_tich_anh_huong_cua_cac_dac_trung_huan_luyen/links/5cf692304585153c3db4a494/Phat-hien-botnet-dua-tren-hoc-may-su-dung-du-lieu-truy-van-DNS-Phan-tich-anh-huong-cua-cac-dac-trung-huan-luyen.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Dau-Hoang/publication/333610454_Phat_hien_botnet_dua_tren_hoc_may_su_dung_du_lieu_truy_van_DNS_Phan_tich_anh_huong_cua_cac_dac_trung_huan_luyen/links/5cf692304585153c3db4a494/Phat-hien-botnet-dua-tren-hoc-may-su-dung-du-lieu-truy-van-DNS-Phan-tich-anh-huong-cua-cac-dac-trung-huan-luyen.pdf"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Toan-Trinh/publication/362830443_KHOA_HOC_CONG_NGHE_MO_PHONG_DU_LIEU_DONG_CHAY_BANG_MO_HINH_CHI_TIET_HOA_DONG_LUC_KET_HOP_VOI_THUAT_TOAN_HOC_MAY_AP_DUNG_CHO_LUU_VUC_SONG_SAI_GON_-DONG_NAI/links/6301bf59aa4b1206fac7a919/KHOA-HOC-CONG-NGHE-MO-PHONG-DU-LIEU-DONG-CHAY-BANG-MO-HINH-CHI-TIET-HOA-DONG-LUC-KET-HOP-VOI-THUAT-TOAN-HOC-MAY-AP-DUNG-CHO-LUU-VUC-SONG-SAI-GON-DONG-NAI.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Toan-Trinh/publication/362830443_KHOA_HOC_CONG_NGHE_MO_PHONG_DU_LIEU_DONG_CHAY_BANG_MO_HINH_CHI_TIET_HOA_DONG_LUC_KET_HOP_VOI_THUAT_TOAN_HOC_MAY_AP_DUNG_CHO_LUU_VUC_SONG_SAI_GON_-DONG_NAI/links/6301bf59aa4b1206fac7a919/KHOA-HOC-CONG-NGHE-MO-PHONG-DU-LIEU-DONG-CHAY-BANG-MO-HINH-CHI-TIET-HOA-DONG-LUC-KET-HOP-VOI-THUAT-TOAN-HOC-MAY-AP-DUNG-CHO-LUU-VUC-SONG-SAI-GON-DONG-NAI.pdf"
+    },
+    {
+        "url": "https://dspace.ttu.edu.vn/bitstream/handle/123456789/972/Gi%20ng%20vi%EAn%20Khoa%20K%20%20Thu%20t%20Tr%20%20ng%20%20%20i%20h%20c%20T%E2n%20T%20o.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 404 Client Error: Not Found for url: https://dspace.ttu.edu.vn/bitstream/handle/123456789/972/Gi%20ng%20vi%EAn%20Khoa%20K%20%20Thu%20t%20Tr%20%20ng%20%20%20i%20h%20c%20T%E2n%20T%20o.pdf"
+    },
+    {
+        "url": "https://dspace.ttu.edu.vn/bitstream/handle/123456789/2009/Ng%E0nh%20k%20%20thu%20t%20ch%20t%20l%20%20ng%20Hoa%20K%20%20%20%20m%20t%20%20%20i%20h%20c%20t%20%20th%20c.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 404 Client Error: Not Found for url: https://dspace.ttu.edu.vn/bitstream/handle/123456789/2009/Ng%E0nh%20k%20%20thu%20t%20ch%20t%20l%20%20ng%20Hoa%20K%20%20%20%20m%20t%20%20%20i%20h%20c%20t%20%20th%20c.pdf"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Thuy-Nguyen-Thanh-4/publication/327882489_Applying_Multi-Class_SVMs_into_building_chatbot_Vietnamese_question_answering_system/links/5bab0fd892851ca9ed25ec23/Applying-Multi-Class-SVMs-into-building-chatbot-Vietnamese-question-answering-system.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Thuy-Nguyen-Thanh-4/publication/327882489_Applying_Multi-Class_SVMs_into_building_chatbot_Vietnamese_question_answering_system/links/5bab0fd892851ca9ed25ec23/Applying-Multi-Class-SVMs-into-building-chatbot-Vietnamese-question-answering-system.pdf"
+    },
+    {
+        "url": "https://www.researchgate.net/profile/Dang-Tung-3/publication/357430713_KHAI_THAC_TRUC_TUYEN_CO_SO_DU_LIEU_ANH_VE_TINH_SO_SANH_THUAT_TOAN_HOC_MAY_VE_PHAN_LOAI_LOP_PHU_TREN_NEN_GOOGLE_EARTH_ENGINE_Online_data_mining_of_satellite_images_comparison_of_machine_learning_algori/links/61cdde2ab8305f7c4b10bf79/KHAI-THAC-TRUC-TUYEN-CO-SO-DU-LIEU-ANH-VE-TINH-SO-SANH-THUAT-TOAN-HOC-MAY-VE-PHAN-LOAI-LOP-PHU-TREN-NEN-GOOGLE-EARTH-ENGINE-Online-data-mining-of-satellite-images-comparison-of-machine-learning-algo.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 403 Client Error: Forbidden for url: https://www.researchgate.net/profile/Dang-Tung-3/publication/357430713_KHAI_THAC_TRUC_TUYEN_CO_SO_DU_LIEU_ANH_VE_TINH_SO_SANH_THUAT_TOAN_HOC_MAY_VE_PHAN_LOAI_LOP_PHU_TREN_NEN_GOOGLE_EARTH_ENGINE_Online_data_mining_of_satellite_images_comparison_of_machine_learning_algori/links/61cdde2ab8305f7c4b10bf79/KHAI-THAC-TRUC-TUYEN-CO-SO-DU-LIEU-ANH-VE-TINH-SO-SANH-THUAT-TOAN-HOC-MAY-VE-PHAN-LOAI-LOP-PHU-TREN-NEN-GOOGLE-EARTH-ENGINE-Online-data-mining-of-satellite-images-comparison-of-machine-learning-algo.pdf"
+    },
+    {
+        "url": "http://lib.yhn.edu.vn/bitstream/YHN/20911/1/391018.pdf",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: ('Connection broken: IncompleteRead(24240 bytes read, 681309 more expected)', IncompleteRead(24240 bytes read, 681309 more expected))"
+    },
+    {
+        "url": "http://thuvienlamdong.org.vn:81/bitstream/DL_134679/51014/1/CVv46V500S12021068.pdf ",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng: 404 Client Error: Not Found for url: http://thuvienlamdong.org.vn:81/bitstream/DL_134679/51014/1/CVv46V500S12021068.pdf%20"
+    },
+    {
+        "URL": "https://thuvienphapluat.vn/TCVN/Tai-nguyen-Moi-truong/QCVN-79-2024-BTNMT-do-dac-trong-luc-chi-tiet-phuc-vu-do-dac-ban-do-do-mat-dat-921098.aspx",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng 'utf-8' codec can't encode character '\\ud836' in position 1408: surrogates not allowed"
+    },
+    {
+        "URL": "https://thuvienphapluat.vn/TCVN/Tai-nguyen-Moi-truong/QCVN-79-2024-BTNMT-do-dac-trong-luc-chi-tiet-phuc-vu-do-dac-ban-do-do-mat-dat-921098.aspx?tab=3",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng 'utf-8' codec can't encode character '\\ud836' in position 1408: surrogates not allowed"
+    },
+    {
+        "URL": "https://thuvienphapluat.vn/TCVN/Tai-nguyen-Moi-truong/QCVN-79-2024-BTNMT-do-dac-trong-luc-chi-tiet-phuc-vu-do-dac-ban-do-do-mat-dat-921098.aspx?tab=7",
+        "Error": "L\u1ed7i khi t\u1ea3i xu\u1ed1ng 'utf-8' codec can't encode character '\\ud836' in position 1408: surrogates not allowed"
     }
 ]
