@@ -3,27 +3,25 @@ import argparse
 from pymongo import MongoClient
 from crawler import crawler_web, crawler_pdf, add_error_url
 import time
+import json
 from scan_link import get_link
-from tree import TreeNode, search_tree, print_tree, split_url_to_path, get_url
+from tree import TreeNode, print_tree, split_url_to_path, get_url, save_tree_to_mongodb
 
+# start = time.time()
 
-start = time.time()
-
-output_dir = "downloaded_pdfs"
-if not os.path.exists(output_dir):
-    os.makedirs(output_dir)
 
 # Khởi tạo đối tượng
 parser = argparse.ArgumentParser(description='Crawl data từ Web links')
 
 # Thêm các đối số
-parser.add_argument("--web_links", type=str, default=r'.\web_folder\web_list.txt', 
-                    help="Đường dẫn của file chứa các link web")#, 
-                    # default=r".\webs_list.txt")
-parser.add_argument("--pdf_links", type=str, 
-                    help="Đường dẫn của file chứa các link tải PDF")#, 
-                    # default=r'.\pdf_list.txt')
-parser.add_argument("--db_name", type=str, default="dulieutiengviet", 
+# parser.add_argument("--web_links", type=str, default=r'.\web_folder\web_list_7.txt', 
+#                     help="Đường dẫn của file chứa các link web")#, 
+#                     # default=r".\webs_list.txt")
+# parser.add_argument("--pdf_links", type=str, 
+#                     help="Đường dẫn của file chứa các link tải PDF")
+#                     # default=r'.\pdf_folder\all_pdf_list.txt')
+"""
+    parser.add_argument("--db_name", type=str, default="dulieutiengviet", 
                     help="Tên cơ sở dữ liệu (MongoDB)")
 parser.add_argument("--user_name", type=str, 
                     default="dulieutiengviet", help="Tên người dùng")
@@ -49,23 +47,37 @@ client = MongoClient(con)
 db = client[args.db_name]
 
 # Chọn collection (nếu collection chưa tồn tại, nó sẽ được tạo tự động)
-collection = db[args.collect]
+collection = db[args.collect] # Lưu dữ liệu chính
+error_collection = db['Error URL'] # Lưu các đường dẫn bị lỗi
 
 # Khoi tao cay
 root = TreeNode('Root')
 
-# URL của trang web bạn muốn crawl
-with open(args.web_links, 'r') as file:
-    web_list = file.read().splitlines()
-
-# with open(args.pdf_links, 'r') as file:
-#     pdf_list = file.read().splitlines()
+print(args.web_links)
+print(args.pdf_links)
 
 list_data = []
 links_list = []
 pdfs_list = []
 dis_list = []
+"""
 
+def insert_error(url, error, error_collection):
+    item = {
+        "URL": url,
+        "Error":error
+    }
+    print(error)
+    error_collection.insert_one(item)
+
+def insert_db(data, collection, error_collection):
+    try:
+        collection.insert_one(data)
+        print("Đã thêm xong dữ liệu vào trong database")
+    except UnicodeEncodeError as e:
+        insert_error(data['URL'], e, error_collection)
+
+'''
 if args.web_links != None:
     # URL của trang web bạn muốn crawl
     with open(args.web_links, 'r') as file:
@@ -83,7 +95,11 @@ if args.pdf_links != None:
     with open(args.pdf_links, 'r') as file:
         pdf_list = file.read().splitlines()
 
-    crawler_pdf(pdf_list, list_data, output_dir, dis_list)
+    for url in pdf_list:
+        # Từng file 1
+        pdf_filename = url.split('/')[-1]
+        output_path = os.path.join(output_dir, pdf_filename)
+        crawler_pdf(url, list_data, output_path, dis_list)
 
 if args.pdf_links == None and args.web_links == None:
     print(f"Lỗi pdf_links: {args.pdf_links} và web_links: {args.web_links}")
@@ -109,9 +125,17 @@ if len(list_data) > 0:
 else:
     print("Dữ liệu trống")
 
-add_error_url(dis_list)
+# add_error_url(dis_list)
 end = time.time()
 print(f"Time loss: {end - start}s")
 
+tree_dict = root.to_dict()
+with open('tree_structure.json', 'w') as json_file:
+    json.dump(tree_dict, json_file, indent=4)
+
 print("Cấu trúc cây:")
 root.print_tree()
+
+save_tree_to_mongodb(root, db)
+print("Đã lưu cây vào MongoDB!")
+'''

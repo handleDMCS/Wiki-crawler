@@ -1,47 +1,51 @@
 import requests
-import argparse
 from bs4 import BeautifulSoup
-from crawler import add_error_url
+import os
 import time
+from updata import insert_error
+from crawler import crawler_web, crawler_pdf
+from tree import split_url_to_path
 
-# start = time.time()
+OUTPUT_DIR = "downloaded_pdfs"
+if not os.path.exists(OUTPUT_DIR):
+    os.makedirs(OUTPUT_DIR)
 
-# # Khởi tạo đối tượng
-# parser = argparse.ArgumentParser(description='Crawl data từ Web links')
+# Hàm để kiểm tra và lưu link vào file txt
+def save_link_to_file(link, check, file_path=r'./link_folder/links.txt'):
+    # Kiểm tra xem file có tồn tại không
+    if not os.path.exists(file_path):
+        print(f"Lỗi file {file_path} không tồn tại!!")
 
-# # Thêm các đối số
-# parser.add_argument("--web_list", type=str, 
-#                     help="Đường dẫn của file chứa các link web trang chủ", 
-#                     default=r".\web_folder\web_list.txt")
-# parser.add_argument("--save_link", type=str, 
-#                     help="Đường dẫn lưu các link đã scan được link", 
-#                     default=r'.\link_folder\link_list.txt')
-# parser.add_argument("--save_pdf", type=str, 
-#                     help="Đường dẫn lưu các link pdf đã scan được link", 
-#                     default=r'.\pdf_folder\list.txt')
+    # Đọc nội dung file và kiểm tra xem link đã tồn tại chưa
+    with open(file_path, 'r') as file:
+        links = file.readlines()
+        links = [l.strip() for l in links] 
 
-# # Phân tích các đối số
-# args = parser.parse_args()
-
-# # URL của trang web bạn muốn crawl
-# links_list = []
-# pdfs_list = []
-# dis_list = []
-
-def add_list(list, value):
-    if value not in list:
-        list.append(value)
+    if link not in links:
+        # Ghi link mới vào file
+        with open(file_path, 'a') as file:
+            file.write(link + '\n')
+        print(f"Link '{link}' đã được thêm vào file.")
+        check = 0
+    else: 
+        check +=1
+    
+    return check
 
 def check_link(link):
     """
     Kiểm tra các từ khoá có thế gây lỗi hoặc không cần thiết.
     """
-    forbidden_keywords = ['b.link', "youtu", "ebook", "javascript", "buymeacoffee", "email"]
+    forbidden_keywords = ['b.link', "youtu", "ebook", "javascript", "buymeacoffee", "email", "#"]
     return not any(keyword in link for keyword in forbidden_keywords)
 
-def get_link(url, links_list, pdfs_list, dis_list):
+def add_tree(root, url):
+    path_list = split_url_to_path(url)
+    root.add_child(path_list)
+
+def get_link(url, check, root, collection, error_collection):
     try:
-        # Gửi một yêu cầu GET đến trang web
+       # Gửi một yêu cầu GET đến trang web
         response = requests.get(url)
 
         # Kiểm tra nếu yêu cầu thành công
@@ -51,55 +55,61 @@ def get_link(url, links_list, pdfs_list, dis_list):
 
             # Tìm tất cả các thẻ anchor (a)
             links = soup.find_all('a')
-            # print(links)
+            crawler_web(url, collection, error_collection)
             # Trích xuất các thuộc tính href từ các thẻ anchor
             for link in links:
                 href = link.get('href')
                 if not isinstance(href, str):
                     continue
                 if href and check_link(href):
-                    if href.startswith("http"):
-                        if (url in href):
-                            if '.pdf' in href:
-                                add_list(pdfs_list, href)
-                            else:
-                                add_list(links_list, href)
+                    if not href.startswith("http"):
+                        href = url + href.lstrip('/')
+                    if url not in href: 
+                        temp = split_url_to_path(href)
+                        if len(temp) > 4:
+                            temp = temp[:4]
+                            href_new = ''
+                            for i in range(len(temp)):
+                                if i == len(temp)-1:
+                                    href_new += temp[i]
+                                else:
+                                    href_new += temp[i]+'/'
+                        href = href_new
+                    check = save_link_to_file(href, check)
+                    if check < 1:
+                        add_tree(root, href)
+                        get_link(href, check, root, collection, error_collection)    
+
+                    if '.pdf' in href:
+                        pdf_filename = url.split('/')[-1]
+                        output_path = os.path.join(OUTPUT_DIR, pdf_filename)
+                        crawler_pdf(href, output_path, collection, error_collection)
                     else:
-                        add_list(links_list, url + href.lstrip('/'))
+                        crawler_web(href, collection, error_collection)
             print(f"Truy xuất xong trang web: {url}")
         else:
-            data = {
-                "URL": url,
-                "Error":f"Mã trạng thái: {response.status_code}"
-            }
-            dis_list.append(data)
-            print(f"Không thể truy xuất trang web: {url}. Mã trạng thái: {response.status_code}")
+            insert_error(url, f"Mã trạng thái: {response.status_code}", error_collection)
     except requests.exceptions.ConnectionError as e:
-        # print(item)
-        data = {
-            "URL": url,
-            "Error":f"Lỗi khi khi kết nối {e}"
-        }
-        dis_list.append(data)
-        # list_data = [item for item in list_data if item["URL"] != url]
-        print(f"Lỗi khi kết nối: {url} - {e}")
+        insert_error(url, f"Không thể kết nối: {e}", error_collection)
+    except UnicodeEncodeError as e:
+        insert_error(url,  f"Lỗi mã hóa Unicode: {e}", error_collection)
+    except requests.exceptions.TooManyRedirects as e:
+        insert_error(url, f"Lỗi TooManyRedirects: {e}", error_collection)
+    except requests.exceptions.ChunkedEncodingError as e:
+        insert_error(url, f"Lỗi ChunkedEncodingError: {e}", error_collection)
+    except requests.exceptions.ReadTimeout as e:
+        insert_error(url, f"Lỗi ReadTimeout: {e}", error_collection)
+    except requests.exceptions.InvalidURL as e:
+        insert_error(url, f"Lỗi InvalidURL: {e}", error_collection)
+    except Exception as e:
+        insert_error(url, f"Lỗi khác: {e}", error_collection)
 
-# # URL của trang web bạn muốn crawl
-# with open(args.web_list, 'r') as file:
-#     web_list = file.read().splitlines()
-
-# for url in web_list:
-#     get_link(url, links_list, pdfs_list, dis_list)
-    
-# # Mở file ở chế độ ghi
-# with open(args.save_link, "a", encoding="utf-8") as file:
-#     for item in links_list:
-#         file.write(f"{item}\n")
-
-# with open(args.save_pdf, "a", encoding="utf-8") as file:
-#     for item in pdfs_list:
-#         file.write(f"{item}\n")
-
-# add_error_url(dis_list)
-# end = time.time()
-# print(f"Time loss: {end - start}s")
+def timing_decorator(func):
+    def wrapper(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print(f"Thời gian chạy của {func.__name__} là: {elapsed_time:.6f} giây")
+        return result
+    return wrapper
