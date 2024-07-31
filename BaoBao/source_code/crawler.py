@@ -2,8 +2,20 @@ import requests
 from bs4 import BeautifulSoup
 import pdfplumber
 import os
+import time
 from updata import insert_db, insert_error
 
+def timing_decorator(func):
+    def wrapper(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print(f"Thời gian chạy của {func.__name__} là: {elapsed_time:.6f} giây")
+        return result
+    return wrapper
+
+@timing_decorator
 def crawler_web(url, collection, error_collection):
     try:
         # Gửi yêu cầu GET đến trang web
@@ -77,6 +89,7 @@ def download_pdf(url, output_path, error_collection):
     except OSError as e:
         insert_error(url, f"Lỗi hệ thống: {e}", error_collection)
 
+@timing_decorator
 def crawler_pdf(url, output_path, collection, error_collection):
     '''
     Đẩy dữ liệu đã crawl lên trên MongoDB
@@ -96,5 +109,3 @@ def crawler_pdf(url, output_path, collection, error_collection):
             insert_db(info_pdf, collection, error_collection)
     except FileNotFoundError as e:
         insert_error(url, f"Lỗi hệ thống: {e}", error_collection)
-    except Exception as e:
-        insert_error(url, f"Lỗi khác: {e}", error_collection)

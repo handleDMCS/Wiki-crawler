@@ -58,8 +58,7 @@ def get_url(urls, last_urls):
         url.replace("Root/", "")
         last_urls.append(url)
 
-def save_tree_to_mongodb(tree,  db, collection_name='trees'):
-    collection = db[collection_name]
+def save_tree_to_mongodb(tree, collection_tree):
     tree_dict = tree.to_dict()
-    collection.insert_one(tree_dict)
+    collection_tree.insert_one(tree_dict)
     print("Tree saved to MongoDB")

@@ -1,11 +1,11 @@
-import scan_link as scan
+from scan_link import get_link
 import tree
 from pymongo import MongoClient
 import argparse
 
 parser = argparse.ArgumentParser(description='Crawl data từ Web links')
 
-parser.add_argument("--file_name", type=str, default=r"./web_folder/all_web_list.txt", 
+parser.add_argument("--file_name", type=str, default=r"./web_folder/ml_base.txt", 
                     help="Tên file ")
 parser.add_argument("--db_name", type=str, default="dulieutiengviet", 
                     help="Tên cơ sở dữ liệu (MongoDB)")
@@ -18,11 +18,9 @@ parser.add_argument("--IP", type=str,
 parser.add_argument("--port", type=str, 
                     default=27017, help="Cổng PORT")
 parser.add_argument("--collect", type=str,
-                    help="Tên collection", default="test_v3")
-
+                    help="Tên collection", default="tiengviet")
 
 args = parser.parse_args()
-
 with open(args.file_name, 'r') as file:
     urls = file.readlines()
     urls = [item.strip() for item in urls] 
@@ -39,9 +37,14 @@ db = client[args.db_name]
 # Chọn collection (nếu collection chưa tồn tại, nó sẽ được tạo tự động)
 collection = db[args.collect] # Lưu dữ liệu chính
 error_collection = db['Error URL'] # Lưu các đường dẫn bị lỗi
+collection_tree = db["Tree URL"]
 
 # Khoi tao cay
 root = tree.TreeNode('Root')
 check = 0
 for url in urls:
-    scan.get_link(url, check, root, collection,error_collection)
+    get_link(url=url,urls=urls,
+             check=check,root=root,
+             collection=collection,
+             error_collection=error_collection,
+             collection_tree=collection_tree)
