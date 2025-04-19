@@ -1,6 +1,6 @@
 # 🕷️ Wiki Crawler
 
-A simple yet powerful Python-based web crawler built to extract and structure content from Wikipedia pages. Originally developed to build a diverse, high-quality dataset for a **plagiarism checker**, this tool is ideal for NLP tasks involving textual similarity, paraphrasing, summarization, and more.
+A Python-based web crawler designed to extract and structure content from Wikipedia pages. It was originally developed to support the creation of a diverse and high-quality dataset for use in a plagiarism detection system. The tool may also be applicable to other natural language processing tasks such as textual similarity, paraphrase detection, and summarization.
 
 > ⚠️ **Note:** The `main` branch is currently empty. Please refer to the [`master`](https://github.com/yourusername/wiki-crawler/tree/master) or [`bbao_main`](https://github.com/yourusername/wiki-crawler/tree/bbao_main) branches for the actual implementation.
 
